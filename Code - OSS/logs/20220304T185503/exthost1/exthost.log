@@ -1,0 +1,75 @@
+[2022-03-04 18:55:06.615] [exthost] [info] Extension host with pid 23831 started
+[2022-03-04 18:55:06.615] [exthost] [info] Skipping acquiring lock for /home/awkward/.config/Code - OSS/User/workspaceStorage/bff82e18ef4e7bb284119bcad050835c.
+[2022-03-04 18:55:06.697] [exthost] [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:cpp'
+[2022-03-04 18:55:16.739] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-04 18:55:16.740] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-04 18:55:16.742] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-03-04 18:55:16.746] [exthost] [info] Not activating extension 'muhammad-sammy.csharp': Timed out while searching for 'workspaceContains' pattern **/*.{csproj,sln,slnf,csx,cake}
+[2022-03-04 18:55:18.114] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-04 18:55:18.124] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-04 18:55:18.127] [exthost] [info] ExtensionService#_doActivateExtension LeonardSSH.vscord, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-04 18:55:18.155] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-03-04 18:55:18.172] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-04 18:55:18.180] [exthost] [error] Activating extension LeonardSSH.vscord failed due to an error:
+[2022-03-04 18:55:18.180] [exthost] [error] Error: Extension `vscode.git` is not known or not activated
+	at b.getActivatedExtension (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:4527)
+	at d.getExtensionExports (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:10856)
+	at U.get exports [as exports] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:23811)
+	at new Data (/home/awkward/.vscode-oss/extensions/leonardssh.vscord-4.5.0/dist/extension.js:2:74931)
+	at Object.4608 (/home/awkward/.vscode-oss/extensions/leonardssh.vscord-4.5.0/dist/extension.js:2:74504)
+	at __webpack_require__ (/home/awkward/.vscode-oss/extensions/leonardssh.vscord-4.5.0/dist/extension.js:2:462771)
+	at /home/awkward/.vscode-oss/extensions/leonardssh.vscord-4.5.0/dist/extension.js:2:463511
+	at Object.<anonymous> (/home/awkward/.vscode-oss/extensions/leonardssh.vscord-4.5.0/dist/extension.js:2:463573)
+	at Module.u._compile (/usr/lib/code/out/vs/loader.js:4:1313)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1108:10)
+	at Module.load (internal/modules/cjs/loader.js:935:32)
+	at Module._load (internal/modules/cjs/loader.js:776:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.n._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:104:32148)
+	at Function._._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:104:28737)
+	at Function.g._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:99:60372)
+	at Module.require (internal/modules/cjs/loader.js:959:19)
+	at require (internal/modules/cjs/helpers.js:88:18)
+	at Function.r [as __$__nodeRequire] (/usr/lib/code/out/vs/loader.js:5:101)
+	at d._loadCommonJSModule (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:104:30307)
+	at d._doActivateExtension (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:13385)
+	at d._activateExtension (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:12327)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async Promise.all (index 0)
+[2022-03-04 18:55:18.228] [exthost] [info] Eager extensions activated
+[2022-03-04 18:55:43.700] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-04 18:55:43.700] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2022-03-04 18:55:43.700] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-04 18:55:43.700] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2022-03-04 18:55:43.700] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-04 18:55:43.700] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2022-03-04 18:55:43.700] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-04 18:55:43.700] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2022-03-04 18:55:43.701] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-04 18:55:43.701] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2022-03-04 18:55:43.701] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-04 18:55:43.701] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2022-03-04 18:55:43.701] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-04 18:55:43.701] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2022-03-04 18:55:43.839] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-04 18:55:43.839] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2022-03-04 18:55:43.839] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-04 18:55:43.839] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2022-03-04 18:55:43.840] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-04 18:55:43.840] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2022-03-04 18:55:43.840] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-04 18:55:43.840] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2022-03-04 18:55:43.841] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-04 18:55:43.841] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2022-03-04 18:55:43.842] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-04 18:55:43.842] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2022-03-04 18:55:43.842] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-04 18:55:43.842] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2022-03-04 18:55:43.842] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-04 18:55:43.842] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2022-03-04 18:56:32.860] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-04 18:56:32.860] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2022-03-04 18:57:25.324] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-04 18:57:25.324] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2022-03-04 19:02:42.903] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-04 19:02:42.903] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}

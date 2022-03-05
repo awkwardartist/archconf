@@ -1,0 +1,14 @@
+[2022-03-04 19:12:21.711] [exthost] [info] Extension host with pid 26710 started
+[2022-03-04 19:12:21.711] [exthost] [info] Skipping acquiring lock for /home/awkward/.config/Code - OSS/User/workspaceStorage/bff82e18ef4e7bb284119bcad050835c.
+[2022-03-04 19:12:21.758] [exthost] [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:cpp'
+[2022-03-04 19:12:23.557] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-04 19:12:23.559] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-04 19:12:23.561] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-03-04 19:12:23.654] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-03-04 19:12:23.668] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-04 19:12:24.519] [exthost] [info] Eager extensions activated
+[2022-03-04 19:12:24.524] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-04 19:12:24.537] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-04 19:12:24.548] [exthost] [info] ExtensionService#_doActivateExtension LeonardSSH.vscord, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-04 19:15:43.638] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-04 19:15:43.638] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}

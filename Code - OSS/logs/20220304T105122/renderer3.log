@@ -1,0 +1,6 @@
+[2022-03-04 16:08:09.074] [renderer3] [info] IExtensionHostStarter.start() took 16 ms.
+[2022-03-04 16:08:09.640] [renderer3] [error] [Extension Host] (node:8098) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `electron --trace-deprecation ...` to show where the warning was created)
+[2022-03-04 16:08:18.761] [renderer3] [error] [Extension Host] Error: Unexpected SIGPIPE
+	at process.<anonymous> (/usr/lib/code/out/bootstrap.js:1:370)
+	at process.emit (events.js:315:20)

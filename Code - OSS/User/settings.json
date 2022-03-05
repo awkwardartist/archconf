@@ -1,0 +1,5 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "clangd.path": "/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/bin/clangd",
+    "explorer.confirmDelete": false
+}

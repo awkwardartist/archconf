@@ -1,0 +1,28 @@
+{
+   "description": "Ultra Violet: Inspiring creativity, compassion, and ultralight beams",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgg4/5A3XZWh74r1CII/McUz3i2nbmQvZ7tszJAXhZDXWkfKD+JC4iW4NFdgpBwNBsWl8pS8K2xwvwZx7kjB1TMSzeZbi066h8mwGtz3CZ6BCON/AbuG51dtUkHrtzmPup+gAaV2SDygDM2aca/aM1fGb8ZdLl9R5ddLCILdKO8vf99tNMgWhBp/ZGk1A7dHOs3KoAmjgIKr+rXN3IFilNgsZAHkHsEvwxRlxNUy1ILFpJKgisnMA/yZ/nz2bJUdhM5AMPwtg9+u7mWmnqy+SM7qXE4lwuxnJ0j1NwGMO5HUEKgT3gSjlkN7l2Kq/KNGecqudJ33H5YU4BV3IDfdzuwIDAQAB",
+   "manifest_version": 2,
+   "name": "Ultra Violet",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 255, 255, 255 ],
+         "frame": [ 69, 50, 110 ],
+         "ntp_background": [ 69, 50, 110 ],
+         "ntp_text": [ 171, 144, 233 ],
+         "tab_background_text": [ 255, 255, 255 ],
+         "tab_background_text_inactive": [ 255, 255, 255 ],
+         "tab_background_text_incognito": [ 255, 255, 255 ],
+         "tab_background_text_incognito_inactive": [ 255, 255, 255 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 95, 75, 139 ]
+      },
+      "tints": {
+         "buttons": [ 0.8, 1, 0.8 ],
+         "frame_inactive": [ -1, -1, 0.6 ],
+         "frame_incognito": [ 0.1, 0, 0.3 ],
+         "frame_incognito_inactive": [ 0.1, 0, 0.3 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2"
+}

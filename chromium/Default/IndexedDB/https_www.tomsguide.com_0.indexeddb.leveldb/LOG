@@ -1,0 +1,18 @@
+2022/03/03-22:32:23.293 1616 Creating DB /home/awkward/.config/chromium/Default/IndexedDB/https_www.tomsguide.com_0.indexeddb.leveldb since it was missing.
+2022/03/03-22:32:23.621 1616 Reusing MANIFEST /home/awkward/.config/chromium/Default/IndexedDB/https_www.tomsguide.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/03-22:32:24.850 1616 Level-0 table #5: started
+2022/03/03-22:32:25.010 1616 Level-0 table #5: 1821 bytes OK
+2022/03/03-22:32:25.134 1616 Delete type=0 #3
+2022/03/03-22:32:25.134 1616 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/03/04-01:08:12.219 27fd Level-0 table #7: started
+2022/03/04-01:08:12.279 27fd Level-0 table #7: 66008 bytes OK
+2022/03/04-01:08:12.353 27fd Delete type=0 #4
+2022/03/04-01:08:12.354 27fd Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/03/04-01:08:12.354 27fd Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x03\x02\x01\x1f\x00w\x00e\x00b\x00h\x00o\x00o\x00k\x00s\x00.\x00n\x00o\x00t\x00i\x00f\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00.\x00d\x00i\x00s\x00p\x00l\x00a\x00y\x00e\x00d' @ 500 : 1
+2022/03/04-01:08:12.354 27fd Compacting 1@1 + 1@2 files
+2022/03/04-01:08:12.451 27fd Generated table #8@1: 121 keys, 12664 bytes
+2022/03/04-01:08:12.451 27fd Compacted 1@1 + 1@2 files => 12664 bytes
+2022/03/04-01:08:12.525 27fd compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/03/04-01:08:12.525 27fd Delete type=2 #7
+2022/03/04-01:08:12.525 27fd Delete type=2 #5
+2022/03/04-01:08:12.526 27fd Manual compaction at level-1 from '\x00\x03\x03\x02\x01\x1f\x00w\x00e\x00b\x00h\x00o\x00o\x00k\x00s\x00.\x00n\x00o\x00t\x00i\x00f\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00.\x00d\x00i\x00s\x00p\x00l\x00a\x00y\x00e\x00d' @ 500 : 1 .. (end); will stop at (end)

@@ -1,0 +1,17 @@
+2022/03/05-11:14:14.488 4b6 Reusing MANIFEST /home/awkward/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2022/03/05-11:14:14.891 4b6 Recovering log #790
+2022/03/05-11:14:15.006 4b6 Reusing old log /home/awkward/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/000790.log 
+2022/03/05-11:15:20.055 429 Level-0 table #794: started
+2022/03/05-11:15:20.423 429 Level-0 table #794: 7362117 bytes OK
+2022/03/05-11:15:20.499 429 Delete type=0 #790
+2022/03/05-11:15:20.505 429 Compacting 4@0 + 2@1 files
+2022/03/05-11:15:20.812 429 Generated table #795@0: 1 keys, 7360204 bytes
+2022/03/05-11:15:20.973 429 Generated table #796@0: 5 keys, 377 bytes
+2022/03/05-11:15:20.973 429 Compacted 4@0 + 2@1 files => 7360581 bytes
+2022/03/05-11:15:21.046 429 compacted to: files[ 0 2 1 0 0 0 0 ]
+2022/03/05-11:15:21.047 429 Delete type=2 #791
+2022/03/05-11:15:21.047 429 Delete type=2 #784
+2022/03/05-11:15:21.047 429 Delete type=2 #783
+2022/03/05-11:15:21.047 429 Delete type=2 #789
+2022/03/05-11:15:21.047 429 Delete type=2 #786
+2022/03/05-11:15:21.047 429 Delete type=2 #794

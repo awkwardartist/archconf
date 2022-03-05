@@ -1,0 +1,6 @@
+2022/03/05-11:27:04.181 458 Reusing MANIFEST /home/awkward/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/03/05-11:27:04.182 458 Recovering log #64
+2022/03/05-11:27:04.351 458 Reusing old log /home/awkward/.config/discord/Local Storage/leveldb/000064.log 
+2022/03/05-11:28:07.785 540 Level-0 table #68: started
+2022/03/05-11:28:07.914 540 Level-0 table #68: 16579 bytes OK
+2022/03/05-11:28:07.988 540 Delete type=0 #64

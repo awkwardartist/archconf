@@ -1,0 +1,6 @@
+2022/03/03-15:00:15.354 67d01 Creating DB /home/awkward/.config/chromium/Default/IndexedDB/https_www.usnews.com_0.indexeddb.leveldb since it was missing.
+2022/03/03-15:00:15.500 67d01 Reusing MANIFEST /home/awkward/.config/chromium/Default/IndexedDB/https_www.usnews.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/03-15:10:58.125 6f131 Level-0 table #5: started
+2022/03/03-15:10:58.197 6f131 Level-0 table #5: 39426 bytes OK
+2022/03/03-15:10:58.315 6f131 Delete type=0 #3
+2022/03/03-15:10:58.316 6f131 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

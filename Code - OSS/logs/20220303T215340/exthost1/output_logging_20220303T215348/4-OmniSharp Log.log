@@ -1,0 +1,59 @@
+Starting OmniSharp server at 3/3/2022, 9:53:50 PM
+    Target: /home/awkward/programming/BracketScript
+
+OmniSharp server started.
+    Path: /home/awkward/.vscode-oss/extensions/muhammad-sammy.csharp-1.24.0/.omnisharp/1.38.0/run
+    PID: 2338
+
+[info]: OmniSharp.Stdio.Host
+        Starting OmniSharp on arch 0.0 (x64)
+[info]: OmniSharp.Services.DotNetCliService
+        Checking the 'DOTNET_ROOT' environment variable to find a .NET SDK
+[info]: OmniSharp.Services.DotNetCliService
+        DotNetPath set to /usr/share/dotnet/dotnet
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Located 1 MSBuild instance(s)
+            1: StandAlone 17.0.0 - "/home/awkward/.vscode-oss/extensions/muhammad-sammy.csharp-1.24.0/.omnisharp/1.38.0/omnisharp/.msbuild/Current/Bin"
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        MSBUILD_EXE_PATH environment variable set to '/home/awkward/.vscode-oss/extensions/muhammad-sammy.csharp-1.24.0/.omnisharp/1.38.0/omnisharp/.msbuild/Current/Bin/MSBuild.exe'
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Registered MSBuild instance: StandAlone 17.0.0 - "/home/awkward/.vscode-oss/extensions/muhammad-sammy.csharp-1.24.0/.omnisharp/1.38.0/omnisharp/.msbuild/Current/Bin"
+            CscToolExe = csc.exe
+            MSBuildToolsPath = /home/awkward/.vscode-oss/extensions/muhammad-sammy.csharp-1.24.0/.omnisharp/1.38.0/omnisharp/.msbuild/Current/Bin
+            CscToolPath = /home/awkward/.vscode-oss/extensions/muhammad-sammy.csharp-1.24.0/.omnisharp/1.38.0/omnisharp/.msbuild/Current/Bin/Roslyn
+            BypassFrameworkInstallChecks = true
+            MSBuildExtensionsPath = /home/awkward/.vscode-oss/extensions/muhammad-sammy.csharp-1.24.0/.omnisharp/1.38.0/omnisharp/.msbuild
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.CSharpFormattingWorkspaceOptionsProvider, Order: 0
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.Completion.CompletionOptionsProvider, Order: 0
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.RenameWorkspaceOptionsProvider, Order: 100
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.ImplementTypeWorkspaceOptionsProvider, Order: 110
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.BlockStructureWorkspaceOptionsProvider, Order: 140
+[info]: OmniSharp.Cake.CakeProjectSystem
+        Detecting Cake files in '/home/awkward/programming/BracketScript'.
+[info]: OmniSharp.Cake.CakeProjectSystem
+        Did not find any Cake files
+[info]: OmniSharp.MSBuild.ProjectSystem
+        No solution files found in '/home/awkward/programming/BracketScript'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/awkward/programming/BracketScript/BracketScript.csproj'
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Detecting CSX files in '/home/awkward/programming/BracketScript'.
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Did not find any CSX files
+[info]: OmniSharp.WorkspaceInitializer
+        Configuration finished.
+[info]: OmniSharp.Stdio.Host
+        Omnisharp server running using Stdio at location '/home/awkward/programming/BracketScript' on host 2215.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Loading project: /home/awkward/programming/BracketScript/BracketScript.csproj
+[info]: OmniSharp.MSBuild.ProjectManager
+        Successfully loaded project file '/home/awkward/programming/BracketScript/BracketScript.csproj'.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Adding project '/home/awkward/programming/BracketScript/BracketScript.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Update project: BracketScript

@@ -1,0 +1,1431 @@
+I[19:12:23.887] clangd version 13.0.0 (https://github.com/llvm/llvm-project d7b669b3a30345cfcdb2fde2af6f48aa4b94845d)
+I[19:12:23.887] Features: linux+grpc
+I[19:12:23.887] PID: 26779
+I[19:12:23.887] Working directory: /home/awkward/programming/os
+I[19:12:23.887] argv[0]: /home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/bin/clangd
+I[19:12:23.887] Starting LSP over stdin/stdout
+I[19:12:23.888] <-- initialize(0)
+I[19:12:23.890] --> reply:initialize(0) 1 ms
+I[19:12:23.914] <-- initialized
+I[19:12:23.914] <-- textDocument/didOpen
+I[19:12:24.079] <-- textDocument/documentSymbol(1)
+I[19:12:24.079] <-- textDocument/documentLink(2)
+I[19:12:24.080] Failed to find compilation database for /home/awkward/programming/os/Kernel/Entry.cpp
+I[19:12:24.080] ASTWorker building file /home/awkward/programming/os/Kernel/Entry.cpp version 1 with command clangd fallback
+[/home/awkward/programming/os/Kernel]
+/usr/bin/clang "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/Entry.cpp
+I[19:12:24.084] --> textDocument/clangd.fileStatus
+I[19:12:24.515] --> workspace/semanticTokens/refresh(0)
+I[19:12:24.515] --> textDocument/clangd.fileStatus
+I[19:12:24.515] --> textDocument/clangd.fileStatus
+I[19:12:24.520] <-- reply(0)
+I[19:12:24.529] --> textDocument/publishDiagnostics
+I[19:12:24.529] --> reply:textDocument/documentSymbol(1) 449 ms
+I[19:12:24.529] --> reply:textDocument/documentLink(2) 449 ms
+I[19:12:24.529] --> textDocument/clangd.fileStatus
+I[19:12:24.590] <-- textDocument/semanticTokens/full(3)
+I[19:12:24.590] --> reply:textDocument/semanticTokens/full(3) 0 ms
+I[19:12:24.590] --> textDocument/clangd.fileStatus
+I[19:12:27.366] <-- textDocument/codeAction(4)
+I[19:12:27.366] --> reply:textDocument/codeAction(4) 0 ms
+I[19:12:27.366] --> textDocument/clangd.fileStatus
+I[19:12:28.299] <-- textDocument/hover(5)
+I[19:12:28.335] --> reply:textDocument/hover(5) 35 ms
+I[19:12:28.335] --> textDocument/clangd.fileStatus
+I[19:12:29.507] <-- textDocument/didOpen
+I[19:12:29.507] <-- textDocument/codeAction(6)
+I[19:12:29.507] <-- textDocument/documentSymbol(7)
+I[19:12:29.507] <-- textDocument/semanticTokens/full(8)
+I[19:12:29.507] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:12:29.508] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 1 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:12:29.510] --> textDocument/clangd.fileStatus
+I[19:12:29.510] <-- textDocument/documentLink(9)
+I[19:12:29.519] --> workspace/semanticTokens/refresh(1)
+I[19:12:29.519] --> textDocument/clangd.fileStatus
+I[19:12:29.519] --> textDocument/clangd.fileStatus
+I[19:12:29.522] <-- reply(1)
+I[19:12:29.527] --> textDocument/publishDiagnostics
+I[19:12:29.527] --> reply:textDocument/codeAction(6) 19 ms
+I[19:12:29.527] --> reply:textDocument/documentSymbol(7) 19 ms
+I[19:12:29.527] --> reply:textDocument/semanticTokens/full(8) 19 ms
+I[19:12:29.527] --> reply:textDocument/documentLink(9) 17 ms
+I[19:12:29.527] --> textDocument/clangd.fileStatus
+I[19:12:29.553] <-- textDocument/semanticTokens/full/delta(10)
+I[19:12:29.553] <-- textDocument/semanticTokens/full/delta(11)
+I[19:12:29.553] --> reply:textDocument/semanticTokens/full/delta(11) 0 ms
+I[19:12:29.553] --> reply:textDocument/semanticTokens/full/delta(10) 0 ms
+I[19:12:29.553] --> textDocument/clangd.fileStatus
+I[19:12:29.553] --> textDocument/clangd.fileStatus
+I[19:12:30.122] <-- textDocument/hover(12)
+I[19:12:30.123] --> reply:textDocument/hover(12) 0 ms
+I[19:12:30.123] --> textDocument/clangd.fileStatus
+I[19:12:31.476] <-- textDocument/hover(13)
+I[19:12:31.477] --> reply:textDocument/hover(13) 0 ms
+I[19:12:31.477] --> textDocument/clangd.fileStatus
+I[19:12:33.960] <-- textDocument/documentHighlight(14)
+I[19:12:33.960] --> reply:textDocument/documentHighlight(14) 0 ms
+I[19:12:33.960] --> textDocument/clangd.fileStatus
+I[19:12:34.195] <-- textDocument/codeAction(15)
+I[19:12:34.195] --> reply:textDocument/codeAction(15) 0 ms
+I[19:12:34.195] --> textDocument/clangd.fileStatus
+I[19:12:34.894] <-- textDocument/codeAction(16)
+I[19:12:34.894] --> reply:textDocument/codeAction(16) 0 ms
+I[19:12:34.894] --> textDocument/clangd.fileStatus
+I[19:12:35.574] <-- textDocument/codeAction(17)
+I[19:12:35.575] --> reply:textDocument/codeAction(17) 0 ms
+I[19:12:35.575] --> textDocument/clangd.fileStatus
+I[19:15:43.370] <-- textDocument/didChange
+I[19:15:43.370] --> textDocument/clangd.fileStatus
+I[19:15:43.378] <-- textDocument/completion(18)
+I[19:15:43.420] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:43.420] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 2 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:43.421] --> textDocument/clangd.fileStatus
+I[19:15:43.421] --> textDocument/clangd.fileStatus
+I[19:15:43.421] --> workspace/semanticTokens/refresh(2)
+I[19:15:43.421] --> textDocument/clangd.fileStatus
+I[19:15:43.422] <-- reply(2)
+I[19:15:43.430] <-- textDocument/semanticTokens/full/delta(19)
+I[19:15:43.430] --> reply:textDocument/semanticTokens/full/delta(19) 0 ms
+I[19:15:43.430] --> textDocument/clangd.fileStatus
+I[19:15:43.430] <-- textDocument/semanticTokens/full/delta(20)
+I[19:15:43.446] <-- textDocument/didChange
+I[19:15:43.624] <-- textDocument/didChange
+I[19:15:43.637] --> textDocument/publishDiagnostics
+I[19:15:43.637] --> reply:textDocument/semanticTokens/full/delta(20) 206 ms, error: Task was cancelled.
+I[19:15:43.637] --> textDocument/clangd.fileStatus
+[Error - 7:15:43 PM] Request textDocument/semanticTokens/full/delta failed.
+[object Object]
+I[19:15:43.648] Code complete: sema context ClassStructUnion, query scopes [] (AnyScope=true), expected type <none>
+I[19:15:43.649] Code complete: 4 results from Sema, 1 from Index, 1 matched, 0 from identifiers, 4 returned.
+I[19:15:43.649] --> reply:textDocument/completion(18) 271 ms
+I[19:15:43.711] <-- textDocument/completion(21)
+I[19:15:43.732] Code complete: sema context ClassStructUnion, query scopes [] (AnyScope=true), expected type <none>
+I[19:15:43.732] Code complete: 1 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[19:15:43.732] --> reply:textDocument/completion(21) 20 ms
+I[19:15:43.830] <-- textDocument/semanticTokens/full/delta(22)
+I[19:15:43.830] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:43.830] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 4 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:43.831] --> textDocument/clangd.fileStatus
+I[19:15:43.831] --> workspace/semanticTokens/refresh(3)
+I[19:15:43.832] <-- reply(3)
+I[19:15:43.837] --> reply:textDocument/semanticTokens/full/delta(22) 7 ms
+I[19:15:43.837] Skipping rebuild of the AST for /home/awkward/programming/os/Kernel/baselib/primATA.h, inputs are the same.
+I[19:15:43.838] --> textDocument/publishDiagnostics
+I[19:15:43.838] --> textDocument/clangd.fileStatus
+I[19:15:43.841] <-- textDocument/semanticTokens/full/delta(23)
+I[19:15:43.841] --> reply:textDocument/semanticTokens/full/delta(23) 0 ms
+I[19:15:43.841] --> textDocument/clangd.fileStatus
+I[19:15:43.968] <-- textDocument/documentSymbol(24)
+I[19:15:43.969] --> reply:textDocument/documentSymbol(24) 0 ms
+I[19:15:43.969] --> textDocument/clangd.fileStatus
+I[19:15:44.007] <-- textDocument/didChange
+I[19:15:44.007] --> textDocument/clangd.fileStatus
+I[19:15:44.223] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:44.223] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 5 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:44.226] --> textDocument/clangd.fileStatus
+I[19:15:44.226] --> textDocument/clangd.fileStatus
+I[19:15:44.226] --> workspace/semanticTokens/refresh(4)
+I[19:15:44.226] --> textDocument/clangd.fileStatus
+I[19:15:44.228] <-- reply(4)
+I[19:15:44.239] --> textDocument/publishDiagnostics
+I[19:15:44.239] --> textDocument/clangd.fileStatus
+I[19:15:44.240] <-- textDocument/semanticTokens/full/delta(25)
+I[19:15:44.241] --> reply:textDocument/semanticTokens/full/delta(25) 0 ms
+I[19:15:44.241] --> textDocument/clangd.fileStatus
+I[19:15:44.241] <-- textDocument/semanticTokens/full/delta(26)
+I[19:15:44.241] --> reply:textDocument/semanticTokens/full/delta(26) 0 ms
+I[19:15:44.241] --> textDocument/clangd.fileStatus
+I[19:15:44.340] <-- textDocument/documentSymbol(27)
+I[19:15:44.341] --> reply:textDocument/documentSymbol(27) 0 ms
+I[19:15:44.341] --> textDocument/clangd.fileStatus
+I[19:15:44.995] <-- textDocument/documentLink(28)
+I[19:15:44.995] --> reply:textDocument/documentLink(28) 0 ms
+I[19:15:44.995] --> textDocument/clangd.fileStatus
+I[19:15:45.161] <-- textDocument/didChange
+I[19:15:45.161] --> textDocument/clangd.fileStatus
+I[19:15:45.162] <-- textDocument/completion(29)
+I[19:15:45.165] Code complete: sema context NewName, query scopes [] (AnyScope=true), expected type <none>
+I[19:15:45.165] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[19:15:45.165] --> reply:textDocument/completion(29) 2 ms
+I[19:15:45.211] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:45.211] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 6 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:45.211] --> textDocument/clangd.fileStatus
+I[19:15:45.212] --> textDocument/clangd.fileStatus
+I[19:15:45.212] --> workspace/semanticTokens/refresh(5)
+I[19:15:45.212] --> textDocument/clangd.fileStatus
+I[19:15:45.212] <-- reply(5)
+I[19:15:45.214] --> textDocument/publishDiagnostics
+I[19:15:45.215] --> textDocument/clangd.fileStatus
+I[19:15:45.215] <-- textDocument/semanticTokens/full/delta(30)
+I[19:15:45.215] <-- textDocument/semanticTokens/full/delta(31)
+I[19:15:45.215] --> reply:textDocument/semanticTokens/full/delta(30) 0 ms
+I[19:15:45.215] --> reply:textDocument/semanticTokens/full/delta(31) 0 ms
+I[19:15:45.215] --> textDocument/clangd.fileStatus
+I[19:15:45.215] --> textDocument/clangd.fileStatus
+I[19:15:45.274] <-- textDocument/didChange
+I[19:15:45.274] --> textDocument/clangd.fileStatus
+I[19:15:45.324] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:45.324] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 7 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:45.325] --> textDocument/clangd.fileStatus
+I[19:15:45.325] --> textDocument/clangd.fileStatus
+I[19:15:45.325] --> workspace/semanticTokens/refresh(6)
+I[19:15:45.325] --> textDocument/clangd.fileStatus
+I[19:15:45.326] <-- reply(6)
+I[19:15:45.329] --> textDocument/publishDiagnostics
+I[19:15:45.329] --> textDocument/clangd.fileStatus
+I[19:15:45.330] <-- textDocument/semanticTokens/full/delta(32)
+I[19:15:45.330] <-- textDocument/semanticTokens/full/delta(33)
+I[19:15:45.330] --> reply:textDocument/semanticTokens/full/delta(32) 0 ms
+I[19:15:45.330] --> textDocument/clangd.fileStatus
+I[19:15:45.330] --> reply:textDocument/semanticTokens/full/delta(33) 0 ms
+I[19:15:45.330] --> textDocument/clangd.fileStatus
+I[19:15:45.445] <-- textDocument/didChange
+I[19:15:45.445] --> textDocument/clangd.fileStatus
+I[19:15:45.495] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:45.495] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 8 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:45.496] --> textDocument/clangd.fileStatus
+I[19:15:45.496] --> textDocument/clangd.fileStatus
+I[19:15:45.496] --> workspace/semanticTokens/refresh(7)
+I[19:15:45.496] --> textDocument/clangd.fileStatus
+I[19:15:45.496] --> textDocument/clangd.fileStatus
+I[19:15:45.497] <-- reply(7)
+I[19:15:45.500] --> textDocument/publishDiagnostics
+I[19:15:45.500] --> textDocument/clangd.fileStatus
+I[19:15:45.501] <-- textDocument/semanticTokens/full/delta(34)
+I[19:15:45.501] <-- textDocument/semanticTokens/full/delta(35)
+I[19:15:45.501] --> reply:textDocument/semanticTokens/full/delta(34) 0 ms
+I[19:15:45.501] --> reply:textDocument/semanticTokens/full/delta(35) 0 ms
+I[19:15:45.501] --> textDocument/clangd.fileStatus
+I[19:15:45.501] --> textDocument/clangd.fileStatus
+I[19:15:45.597] <-- textDocument/didChange
+I[19:15:45.597] --> textDocument/clangd.fileStatus
+I[19:15:45.647] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:45.647] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 9 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:45.648] --> textDocument/clangd.fileStatus
+I[19:15:45.648] --> textDocument/clangd.fileStatus
+I[19:15:45.648] --> workspace/semanticTokens/refresh(8)
+I[19:15:45.648] --> textDocument/clangd.fileStatus
+I[19:15:45.648] --> textDocument/clangd.fileStatus
+I[19:15:45.649] <-- reply(8)
+I[19:15:45.652] --> textDocument/publishDiagnostics
+I[19:15:45.652] --> textDocument/clangd.fileStatus
+I[19:15:45.655] <-- textDocument/semanticTokens/full/delta(36)
+I[19:15:45.655] --> reply:textDocument/semanticTokens/full/delta(36) 0 ms
+I[19:15:45.655] <-- textDocument/semanticTokens/full/delta(37)
+I[19:15:45.655] --> textDocument/clangd.fileStatus
+I[19:15:45.655] --> reply:textDocument/semanticTokens/full/delta(37) 0 ms
+I[19:15:45.655] --> textDocument/clangd.fileStatus
+I[19:15:45.910] <-- textDocument/codeAction(38)
+I[19:15:45.910] --> reply:textDocument/codeAction(38) 0 ms
+I[19:15:45.910] --> textDocument/clangd.fileStatus
+I[19:15:45.913] <-- textDocument/documentSymbol(39)
+I[19:15:45.914] --> reply:textDocument/documentSymbol(39) 0 ms
+I[19:15:45.914] --> textDocument/clangd.fileStatus
+I[19:15:46.567] <-- textDocument/documentLink(40)
+I[19:15:46.567] --> reply:textDocument/documentLink(40) 0 ms
+I[19:15:46.567] --> textDocument/clangd.fileStatus
+I[19:15:46.904] <-- textDocument/didChange
+I[19:15:46.904] --> textDocument/clangd.fileStatus
+I[19:15:46.954] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:46.954] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 10 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:46.955] --> textDocument/clangd.fileStatus
+I[19:15:46.955] --> textDocument/clangd.fileStatus
+I[19:15:46.955] --> workspace/semanticTokens/refresh(9)
+I[19:15:46.955] --> textDocument/clangd.fileStatus
+I[19:15:46.955] --> textDocument/clangd.fileStatus
+I[19:15:46.955] <-- reply(9)
+I[19:15:46.957] <-- textDocument/semanticTokens/full/delta(41)
+I[19:15:46.957] <-- textDocument/semanticTokens/full/delta(42)
+I[19:15:46.957] --> reply:textDocument/semanticTokens/full/delta(41) 0 ms
+I[19:15:46.957] --> textDocument/clangd.fileStatus
+I[19:15:46.958] --> textDocument/publishDiagnostics
+I[19:15:46.958] --> reply:textDocument/semanticTokens/full/delta(42) 0 ms
+I[19:15:46.958] --> textDocument/clangd.fileStatus
+I[19:15:47.216] <-- textDocument/codeAction(43)
+I[19:15:47.216] --> reply:textDocument/codeAction(43) 0 ms
+I[19:15:47.216] --> textDocument/clangd.fileStatus
+I[19:15:47.218] <-- textDocument/documentSymbol(44)
+I[19:15:47.218] --> reply:textDocument/documentSymbol(44) 0 ms
+I[19:15:47.218] --> textDocument/clangd.fileStatus
+I[19:15:47.527] <-- textDocument/didChange
+I[19:15:47.527] --> textDocument/clangd.fileStatus
+I[19:15:47.528] <-- textDocument/completion(45)
+I[19:15:47.530] Code complete: sema context NewName, query scopes [] (AnyScope=true), expected type <none>
+I[19:15:47.530] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[19:15:47.530] --> reply:textDocument/completion(45) 2 ms
+I[19:15:47.577] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:47.578] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 11 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:47.580] --> textDocument/clangd.fileStatus
+I[19:15:47.580] --> textDocument/clangd.fileStatus
+I[19:15:47.580] --> workspace/semanticTokens/refresh(10)
+I[19:15:47.580] --> textDocument/clangd.fileStatus
+I[19:15:47.582] <-- reply(10)
+I[19:15:47.593] --> textDocument/publishDiagnostics
+I[19:15:47.593] --> textDocument/clangd.fileStatus
+I[19:15:47.594] <-- textDocument/semanticTokens/full/delta(46)
+I[19:15:47.594] --> reply:textDocument/semanticTokens/full/delta(46) 0 ms
+I[19:15:47.595] --> textDocument/clangd.fileStatus
+I[19:15:47.594] <-- textDocument/semanticTokens/full/delta(47)
+I[19:15:47.595] --> reply:textDocument/semanticTokens/full/delta(47) 0 ms
+I[19:15:47.595] --> textDocument/clangd.fileStatus
+I[19:15:47.669] <-- textDocument/didChange
+I[19:15:47.670] --> textDocument/clangd.fileStatus
+I[19:15:47.671] <-- textDocument/completion(48)
+I[19:15:47.673] Code complete: sema context NewName, query scopes [] (AnyScope=true), expected type <none>
+I[19:15:47.673] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[19:15:47.673] --> reply:textDocument/completion(48) 1 ms
+I[19:15:47.720] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:47.720] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 12 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:47.721] --> textDocument/clangd.fileStatus
+I[19:15:47.721] --> textDocument/clangd.fileStatus
+I[19:15:47.721] --> workspace/semanticTokens/refresh(11)
+I[19:15:47.721] --> textDocument/clangd.fileStatus
+I[19:15:47.721] <-- reply(11)
+I[19:15:47.724] --> textDocument/publishDiagnostics
+I[19:15:47.724] --> textDocument/clangd.fileStatus
+I[19:15:47.725] <-- textDocument/semanticTokens/full/delta(49)
+I[19:15:47.725] <-- textDocument/semanticTokens/full/delta(50)
+I[19:15:47.725] --> reply:textDocument/semanticTokens/full/delta(50) 0 ms
+I[19:15:47.725] --> reply:textDocument/semanticTokens/full/delta(49) 0 ms
+I[19:15:47.725] --> textDocument/clangd.fileStatus
+I[19:15:47.725] --> textDocument/clangd.fileStatus
+I[19:15:47.980] <-- textDocument/codeAction(51)
+I[19:15:47.980] --> reply:textDocument/codeAction(51) 0 ms
+I[19:15:47.980] --> textDocument/clangd.fileStatus
+I[19:15:48.003] <-- textDocument/documentSymbol(52)
+I[19:15:48.004] --> reply:textDocument/documentSymbol(52) 0 ms
+I[19:15:48.004] --> textDocument/clangd.fileStatus
+I[19:15:48.233] <-- textDocument/didChange
+I[19:15:48.233] --> textDocument/clangd.fileStatus
+I[19:15:48.283] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:48.284] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 13 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:48.286] --> textDocument/clangd.fileStatus
+I[19:15:48.286] --> textDocument/clangd.fileStatus
+I[19:15:48.286] --> workspace/semanticTokens/refresh(12)
+I[19:15:48.286] --> textDocument/clangd.fileStatus
+I[19:15:48.288] <-- reply(12)
+I[19:15:48.291] <-- textDocument/semanticTokens/full/delta(53)
+I[19:15:48.291] <-- textDocument/semanticTokens/full/delta(54)
+I[19:15:48.291] --> reply:textDocument/semanticTokens/full/delta(53) 0 ms
+I[19:15:48.291] --> textDocument/clangd.fileStatus
+I[19:15:48.296] --> textDocument/publishDiagnostics
+I[19:15:48.296] --> reply:textDocument/semanticTokens/full/delta(54) 4 ms
+I[19:15:48.296] --> textDocument/clangd.fileStatus
+I[19:15:48.408] <-- textDocument/didChange
+I[19:15:48.408] --> textDocument/clangd.fileStatus
+I[19:15:48.458] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:48.458] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 14 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:48.459] --> textDocument/clangd.fileStatus
+I[19:15:48.459] --> textDocument/clangd.fileStatus
+I[19:15:48.459] --> workspace/semanticTokens/refresh(13)
+I[19:15:48.459] --> textDocument/clangd.fileStatus
+I[19:15:48.459] --> textDocument/clangd.fileStatus
+I[19:15:48.460] <-- reply(13)
+I[19:15:48.465] <-- textDocument/semanticTokens/full/delta(55)
+I[19:15:48.465] <-- textDocument/semanticTokens/full/delta(56)
+I[19:15:48.465] --> reply:textDocument/semanticTokens/full/delta(55) 0 ms
+I[19:15:48.465] --> textDocument/clangd.fileStatus
+I[19:15:48.465] --> textDocument/publishDiagnostics
+I[19:15:48.465] --> reply:textDocument/semanticTokens/full/delta(56) 0 ms
+I[19:15:48.465] --> textDocument/clangd.fileStatus
+I[19:15:48.739] <-- textDocument/documentSymbol(57)
+I[19:15:48.740] --> reply:textDocument/documentSymbol(57) 0 ms
+I[19:15:48.740] --> textDocument/clangd.fileStatus
+I[19:15:48.955] <-- textDocument/didSave
+I[19:15:48.955] File version went from 1 to 1
+I[19:15:48.955] File version went from 14 to 14
+I[19:15:48.955] --> textDocument/clangd.fileStatus
+I[19:15:48.955] --> textDocument/clangd.fileStatus
+I[19:15:49.005] Failed to find compilation database for /home/awkward/programming/os/Kernel/Entry.cpp
+I[19:15:49.005] ASTWorker building file /home/awkward/programming/os/Kernel/Entry.cpp version 1 with command clangd fallback
+[/home/awkward/programming/os/Kernel]
+/usr/bin/clang "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/Entry.cpp
+I[19:15:49.005] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:49.005] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 14 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:49.006] --> textDocument/clangd.fileStatus
+I[19:15:49.006] --> textDocument/clangd.fileStatus
+I[19:15:49.006] --> textDocument/clangd.fileStatus
+I[19:15:49.006] --> textDocument/clangd.fileStatus
+I[19:15:49.006] --> workspace/semanticTokens/refresh(15)
+I[19:15:49.006] --> workspace/semanticTokens/refresh(14)
+I[19:15:49.006] --> textDocument/clangd.fileStatus
+I[19:15:49.006] --> textDocument/clangd.fileStatus
+I[19:15:49.006] --> textDocument/clangd.fileStatus
+I[19:15:49.006] --> textDocument/clangd.fileStatus
+I[19:15:49.006] --> textDocument/clangd.fileStatus
+I[19:15:49.007] <-- reply(15)
+I[19:15:49.007] <-- reply(14)
+I[19:15:49.012] <-- textDocument/semanticTokens/full/delta(58)
+I[19:15:49.013] <-- textDocument/semanticTokens/full/delta(59)
+I[19:15:49.013] --> reply:textDocument/semanticTokens/full/delta(59) 0 ms
+I[19:15:49.013] --> reply:textDocument/semanticTokens/full/delta(58) 0 ms
+I[19:15:49.013] --> textDocument/clangd.fileStatus
+I[19:15:49.013] --> textDocument/clangd.fileStatus
+I[19:15:49.389] <-- textDocument/documentLink(60)
+I[19:15:49.389] --> reply:textDocument/documentLink(60) 0 ms
+I[19:15:49.389] --> textDocument/clangd.fileStatus
+I[19:15:52.752] <-- textDocument/documentHighlight(61)
+I[19:15:52.752] --> reply:textDocument/documentHighlight(61) 0 ms
+I[19:15:52.752] --> textDocument/clangd.fileStatus
+I[19:15:52.986] <-- textDocument/codeAction(62)
+I[19:15:52.986] --> reply:textDocument/codeAction(62) 0 ms
+I[19:15:52.986] --> textDocument/clangd.fileStatus
+I[19:15:53.409] <-- textDocument/documentHighlight(63)
+I[19:15:53.409] --> reply:textDocument/documentHighlight(63) 0 ms
+I[19:15:53.409] --> textDocument/clangd.fileStatus
+I[19:15:53.435] <-- textDocument/documentHighlight(64)
+I[19:15:53.435] --> reply:textDocument/documentHighlight(64) 0 ms
+I[19:15:53.435] --> textDocument/clangd.fileStatus
+I[19:15:53.481] <-- textDocument/documentHighlight(65)
+I[19:15:53.482] --> reply:textDocument/documentHighlight(65) 0 ms
+I[19:15:53.482] --> textDocument/clangd.fileStatus
+I[19:15:54.270] <-- textDocument/codeAction(66)
+I[19:15:54.270] --> reply:textDocument/codeAction(66) 0 ms
+I[19:15:54.270] --> textDocument/clangd.fileStatus
+I[19:15:54.493] <-- textDocument/didChange
+I[19:15:54.493] --> textDocument/clangd.fileStatus
+I[19:15:54.543] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:54.544] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 15 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:54.545] --> textDocument/clangd.fileStatus
+I[19:15:54.546] --> textDocument/clangd.fileStatus
+I[19:15:54.546] --> workspace/semanticTokens/refresh(16)
+I[19:15:54.546] --> textDocument/clangd.fileStatus
+I[19:15:54.546] --> textDocument/clangd.fileStatus
+I[19:15:54.547] <-- reply(16)
+I[19:15:54.550] --> textDocument/publishDiagnostics
+I[19:15:54.550] --> textDocument/clangd.fileStatus
+I[19:15:54.551] <-- textDocument/semanticTokens/full/delta(67)
+I[19:15:54.551] <-- textDocument/semanticTokens/full/delta(68)
+I[19:15:54.551] --> reply:textDocument/semanticTokens/full/delta(67) 0 ms
+I[19:15:54.551] --> reply:textDocument/semanticTokens/full/delta(68) 0 ms
+I[19:15:54.551] --> textDocument/clangd.fileStatus
+I[19:15:54.551] --> textDocument/clangd.fileStatus
+I[19:15:54.807] <-- textDocument/codeAction(69)
+I[19:15:54.807] --> reply:textDocument/codeAction(69) 0 ms
+I[19:15:54.807] --> textDocument/clangd.fileStatus
+I[19:15:54.819] <-- textDocument/documentSymbol(70)
+I[19:15:54.820] --> reply:textDocument/documentSymbol(70) 0 ms
+I[19:15:54.820] --> textDocument/clangd.fileStatus
+I[19:15:55.076] <-- textDocument/didChange
+I[19:15:55.076] --> textDocument/clangd.fileStatus
+I[19:15:55.126] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:55.126] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 16 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:55.128] --> textDocument/clangd.fileStatus
+I[19:15:55.128] --> textDocument/clangd.fileStatus
+I[19:15:55.128] --> workspace/semanticTokens/refresh(17)
+I[19:15:55.128] --> textDocument/clangd.fileStatus
+I[19:15:55.129] <-- reply(17)
+I[19:15:55.134] --> textDocument/publishDiagnostics
+I[19:15:55.135] --> textDocument/clangd.fileStatus
+I[19:15:55.137] <-- textDocument/semanticTokens/full/delta(71)
+I[19:15:55.137] <-- textDocument/semanticTokens/full/delta(72)
+I[19:15:55.137] --> reply:textDocument/semanticTokens/full/delta(71) 0 ms
+I[19:15:55.137] --> reply:textDocument/semanticTokens/full/delta(72) 0 ms
+I[19:15:55.137] --> textDocument/clangd.fileStatus
+I[19:15:55.137] --> textDocument/clangd.fileStatus
+I[19:15:55.405] <-- textDocument/documentSymbol(73)
+I[19:15:55.406] --> reply:textDocument/documentSymbol(73) 0 ms
+I[19:15:55.406] --> textDocument/clangd.fileStatus
+I[19:15:56.055] <-- textDocument/documentLink(74)
+I[19:15:56.055] --> reply:textDocument/documentLink(74) 0 ms
+I[19:15:56.056] --> textDocument/clangd.fileStatus
+I[19:15:57.303] <-- textDocument/didChange
+I[19:15:57.303] --> textDocument/clangd.fileStatus
+I[19:15:57.304] <-- textDocument/completion(75)
+I[19:15:57.308] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:15:57.308] Code complete: 3 results from Sema, 2 from Index, 1 matched, 0 from identifiers, 4 returned.
+I[19:15:57.308] --> reply:textDocument/completion(75) 3 ms
+I[19:15:57.354] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:57.354] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 17 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:57.356] --> textDocument/clangd.fileStatus
+I[19:15:57.356] --> textDocument/clangd.fileStatus
+I[19:15:57.357] --> workspace/semanticTokens/refresh(18)
+I[19:15:57.357] --> textDocument/clangd.fileStatus
+I[19:15:57.359] <-- reply(18)
+I[19:15:57.370] --> textDocument/publishDiagnostics
+I[19:15:57.370] --> textDocument/clangd.fileStatus
+I[19:15:57.371] <-- textDocument/semanticTokens/full/delta(76)
+I[19:15:57.371] --> reply:textDocument/semanticTokens/full/delta(76) 0 ms
+I[19:15:57.371] <-- textDocument/semanticTokens/full/delta(77)
+I[19:15:57.372] --> textDocument/clangd.fileStatus
+I[19:15:57.372] --> reply:textDocument/semanticTokens/full/delta(77) 0 ms
+I[19:15:57.372] --> textDocument/clangd.fileStatus
+I[19:15:57.541] <-- textDocument/didChange
+I[19:15:57.541] <-- textDocument/completion(78)
+I[19:15:57.541] --> textDocument/clangd.fileStatus
+I[19:15:57.545] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:15:57.545] Code complete: 1 results from Sema, 1 from Index, 1 matched, 0 from identifiers, 1 returned.
+I[19:15:57.545] --> reply:textDocument/completion(78) 3 ms
+I[19:15:57.592] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:57.592] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 18 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:57.594] --> textDocument/clangd.fileStatus
+I[19:15:57.595] --> textDocument/clangd.fileStatus
+I[19:15:57.595] --> workspace/semanticTokens/refresh(19)
+I[19:15:57.595] --> textDocument/clangd.fileStatus
+I[19:15:57.597] <-- reply(19)
+I[19:15:57.603] <-- textDocument/semanticTokens/full/delta(79)
+I[19:15:57.603] --> reply:textDocument/semanticTokens/full/delta(79) 0 ms
+I[19:15:57.603] <-- textDocument/semanticTokens/full/delta(80)
+I[19:15:57.603] --> textDocument/clangd.fileStatus
+I[19:15:57.607] --> textDocument/publishDiagnostics
+I[19:15:57.607] --> reply:textDocument/semanticTokens/full/delta(80) 4 ms
+I[19:15:57.608] --> textDocument/clangd.fileStatus
+I[19:15:57.717] <-- textDocument/didChange
+I[19:15:57.717] --> textDocument/clangd.fileStatus
+I[19:15:57.717] <-- textDocument/completion(81)
+I[19:15:57.720] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:15:57.721] Code complete: 1 results from Sema, 1 from Index, 1 matched, 0 from identifiers, 1 returned.
+I[19:15:57.721] --> reply:textDocument/completion(81) 3 ms
+I[19:15:57.767] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:57.767] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 19 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:57.768] --> textDocument/clangd.fileStatus
+I[19:15:57.768] --> textDocument/clangd.fileStatus
+I[19:15:57.768] --> workspace/semanticTokens/refresh(20)
+I[19:15:57.768] --> textDocument/clangd.fileStatus
+I[19:15:57.769] <-- reply(20)
+I[19:15:57.772] --> textDocument/publishDiagnostics
+I[19:15:57.772] --> textDocument/clangd.fileStatus
+I[19:15:57.773] <-- textDocument/semanticTokens/full/delta(82)
+I[19:15:57.773] <-- textDocument/semanticTokens/full/delta(83)
+I[19:15:57.773] --> reply:textDocument/semanticTokens/full/delta(82) 0 ms
+I[19:15:57.773] --> textDocument/clangd.fileStatus
+I[19:15:57.773] --> reply:textDocument/semanticTokens/full/delta(83) 0 ms
+I[19:15:57.773] --> textDocument/clangd.fileStatus
+I[19:15:57.830] <-- textDocument/didChange
+I[19:15:57.830] --> textDocument/clangd.fileStatus
+I[19:15:57.830] <-- textDocument/completion(84)
+I[19:15:57.834] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:15:57.834] Code complete: 1 results from Sema, 1 from Index, 1 matched, 0 from identifiers, 1 returned.
+I[19:15:57.834] --> reply:textDocument/completion(84) 4 ms
+I[19:15:57.881] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:57.881] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 20 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:57.883] --> textDocument/clangd.fileStatus
+I[19:15:57.884] --> textDocument/clangd.fileStatus
+I[19:15:57.884] --> workspace/semanticTokens/refresh(21)
+I[19:15:57.884] --> textDocument/clangd.fileStatus
+I[19:15:57.884] --> textDocument/clangd.fileStatus
+I[19:15:57.886] <-- reply(21)
+I[19:15:57.891] <-- textDocument/semanticTokens/full/delta(85)
+I[19:15:57.891] --> reply:textDocument/semanticTokens/full/delta(85) 0 ms
+I[19:15:57.891] <-- textDocument/semanticTokens/full/delta(86)
+I[19:15:57.891] --> textDocument/clangd.fileStatus
+I[19:15:57.896] --> textDocument/publishDiagnostics
+I[19:15:57.897] --> reply:textDocument/semanticTokens/full/delta(86) 5 ms
+I[19:15:57.897] --> textDocument/clangd.fileStatus
+I[19:15:58.086] <-- textDocument/didChange
+I[19:15:58.086] <-- textDocument/completion(87)
+I[19:15:58.086] --> textDocument/clangd.fileStatus
+I[19:15:58.089] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:15:58.090] Code complete: 1 results from Sema, 1 from Index, 1 matched, 0 from identifiers, 1 returned.
+I[19:15:58.090] --> reply:textDocument/completion(87) 3 ms
+I[19:15:58.137] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:58.137] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 21 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:58.138] --> textDocument/clangd.fileStatus
+I[19:15:58.138] --> textDocument/clangd.fileStatus
+I[19:15:58.138] --> workspace/semanticTokens/refresh(22)
+I[19:15:58.138] --> textDocument/clangd.fileStatus
+I[19:15:58.139] <-- reply(22)
+I[19:15:58.144] <-- textDocument/semanticTokens/full/delta(88)
+I[19:15:58.144] --> reply:textDocument/semanticTokens/full/delta(88) 0 ms
+I[19:15:58.144] <-- textDocument/semanticTokens/full/delta(89)
+I[19:15:58.144] --> textDocument/clangd.fileStatus
+I[19:15:58.145] --> textDocument/publishDiagnostics
+I[19:15:58.145] --> reply:textDocument/semanticTokens/full/delta(89) 1 ms
+I[19:15:58.145] --> textDocument/clangd.fileStatus
+I[19:15:58.277] <-- textDocument/didChange
+I[19:15:58.277] --> textDocument/clangd.fileStatus
+I[19:15:58.277] <-- textDocument/completion(90)
+I[19:15:58.281] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:15:58.281] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[19:15:58.281] --> reply:textDocument/completion(90) 3 ms
+I[19:15:58.328] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:58.328] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 22 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:58.330] --> textDocument/clangd.fileStatus
+I[19:15:58.330] --> textDocument/clangd.fileStatus
+I[19:15:58.330] --> workspace/semanticTokens/refresh(23)
+I[19:15:58.330] --> textDocument/clangd.fileStatus
+I[19:15:58.330] --> textDocument/clangd.fileStatus
+I[19:15:58.331] <-- reply(23)
+I[19:15:58.335] <-- textDocument/semanticTokens/full/delta(91)
+I[19:15:58.335] <-- textDocument/semanticTokens/full/delta(92)
+I[19:15:58.335] --> reply:textDocument/semanticTokens/full/delta(91) 0 ms
+I[19:15:58.335] --> textDocument/clangd.fileStatus
+I[19:15:58.337] --> textDocument/publishDiagnostics
+I[19:15:58.337] --> reply:textDocument/semanticTokens/full/delta(92) 1 ms
+I[19:15:58.337] --> textDocument/clangd.fileStatus
+I[19:15:58.594] <-- textDocument/codeAction(93)
+I[19:15:58.595] --> reply:textDocument/codeAction(93) 0 ms
+I[19:15:58.595] --> textDocument/clangd.fileStatus
+I[19:15:58.610] <-- textDocument/documentSymbol(94)
+I[19:15:58.610] --> reply:textDocument/documentSymbol(94) 0 ms
+I[19:15:58.610] --> textDocument/clangd.fileStatus
+I[19:15:58.964] <-- textDocument/didChange
+I[19:15:58.964] --> textDocument/clangd.fileStatus
+I[19:15:59.014] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:59.014] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 23 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:15:59.017] --> textDocument/clangd.fileStatus
+I[19:15:59.017] --> textDocument/clangd.fileStatus
+I[19:15:59.017] --> workspace/semanticTokens/refresh(24)
+I[19:15:59.017] --> textDocument/clangd.fileStatus
+I[19:15:59.017] --> textDocument/clangd.fileStatus
+I[19:15:59.019] <-- reply(24)
+I[19:15:59.022] <-- textDocument/semanticTokens/full/delta(95)
+I[19:15:59.022] <-- textDocument/semanticTokens/full/delta(96)
+I[19:15:59.022] --> reply:textDocument/semanticTokens/full/delta(95) 0 ms
+I[19:15:59.022] --> textDocument/clangd.fileStatus
+I[19:15:59.029] --> textDocument/publishDiagnostics
+I[19:15:59.029] --> reply:textDocument/semanticTokens/full/delta(96) 7 ms
+I[19:15:59.029] --> textDocument/clangd.fileStatus
+I[19:15:59.287] <-- textDocument/codeAction(97)
+I[19:15:59.287] --> reply:textDocument/codeAction(97) 0 ms
+I[19:15:59.287] --> textDocument/clangd.fileStatus
+I[19:15:59.297] <-- textDocument/documentSymbol(98)
+I[19:15:59.297] --> reply:textDocument/documentSymbol(98) 0 ms
+I[19:15:59.298] --> textDocument/clangd.fileStatus
+I[19:15:59.955] <-- textDocument/documentLink(99)
+I[19:15:59.955] --> reply:textDocument/documentLink(99) 0 ms
+I[19:15:59.955] --> textDocument/clangd.fileStatus
+I[19:16:00.385] <-- textDocument/didSave
+I[19:16:00.385] File version went from 1 to 1
+I[19:16:00.385] File version went from 23 to 23
+I[19:16:00.385] --> textDocument/clangd.fileStatus
+I[19:16:00.386] --> textDocument/clangd.fileStatus
+I[19:16:00.436] Failed to find compilation database for /home/awkward/programming/os/Kernel/Entry.cpp
+I[19:16:00.436] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:00.436] ASTWorker building file /home/awkward/programming/os/Kernel/Entry.cpp version 1 with command clangd fallback
+[/home/awkward/programming/os/Kernel]
+/usr/bin/clang "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/Entry.cpp
+I[19:16:00.436] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 23 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:00.437] --> textDocument/clangd.fileStatus
+I[19:16:00.437] --> textDocument/clangd.fileStatus
+I[19:16:00.438] --> workspace/semanticTokens/refresh(25)
+I[19:16:00.438] --> textDocument/clangd.fileStatus
+I[19:16:00.438] --> textDocument/clangd.fileStatus
+I[19:16:00.438] --> textDocument/clangd.fileStatus
+I[19:16:00.438] --> textDocument/clangd.fileStatus
+I[19:16:00.438] --> workspace/semanticTokens/refresh(26)
+I[19:16:00.438] --> textDocument/clangd.fileStatus
+I[19:16:00.438] --> textDocument/clangd.fileStatus
+I[19:16:00.439] <-- reply(25)
+I[19:16:00.440] <-- reply(26)
+I[19:16:00.445] <-- textDocument/semanticTokens/full/delta(100)
+I[19:16:00.445] --> reply:textDocument/semanticTokens/full/delta(100) 0 ms
+I[19:16:00.445] --> textDocument/clangd.fileStatus
+I[19:16:00.445] <-- textDocument/semanticTokens/full/delta(101)
+I[19:16:00.445] --> reply:textDocument/semanticTokens/full/delta(101) 0 ms
+I[19:16:00.445] --> textDocument/clangd.fileStatus
+I[19:16:01.095] <-- textDocument/didChange
+I[19:16:01.095] --> textDocument/clangd.fileStatus
+I[19:16:01.145] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:01.146] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 24 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:01.148] --> textDocument/clangd.fileStatus
+I[19:16:01.148] --> textDocument/clangd.fileStatus
+I[19:16:01.149] --> workspace/semanticTokens/refresh(27)
+I[19:16:01.149] --> textDocument/clangd.fileStatus
+I[19:16:01.151] <-- reply(27)
+I[19:16:01.167] --> textDocument/publishDiagnostics
+I[19:16:01.167] --> textDocument/clangd.fileStatus
+I[19:16:01.168] <-- textDocument/semanticTokens/full/delta(102)
+I[19:16:01.169] --> reply:textDocument/semanticTokens/full/delta(102) 0 ms
+I[19:16:01.169] <-- textDocument/semanticTokens/full/delta(103)
+I[19:16:01.169] --> textDocument/clangd.fileStatus
+I[19:16:01.169] --> reply:textDocument/semanticTokens/full/delta(103) 0 ms
+I[19:16:01.169] --> textDocument/clangd.fileStatus
+I[19:16:01.423] <-- textDocument/documentSymbol(104)
+I[19:16:01.423] --> reply:textDocument/documentSymbol(104) 0 ms
+I[19:16:01.424] --> textDocument/clangd.fileStatus
+I[19:16:01.438] <-- textDocument/codeAction(105)
+I[19:16:01.438] --> reply:textDocument/codeAction(105) 0 ms
+I[19:16:01.439] --> textDocument/clangd.fileStatus
+I[19:16:01.621] <-- textDocument/didSave
+I[19:16:01.621] File version went from 1 to 1
+I[19:16:01.621] File version went from 24 to 24
+I[19:16:01.621] --> textDocument/clangd.fileStatus
+I[19:16:01.621] --> textDocument/clangd.fileStatus
+I[19:16:01.671] Failed to find compilation database for /home/awkward/programming/os/Kernel/Entry.cpp
+I[19:16:01.671] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:01.671] ASTWorker building file /home/awkward/programming/os/Kernel/Entry.cpp version 1 with command clangd fallback
+[/home/awkward/programming/os/Kernel]
+/usr/bin/clang "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/Entry.cpp
+I[19:16:01.671] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 24 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:01.673] --> textDocument/clangd.fileStatus
+I[19:16:01.673] --> textDocument/clangd.fileStatus
+I[19:16:01.673] --> textDocument/clangd.fileStatus
+I[19:16:01.673] --> textDocument/clangd.fileStatus
+I[19:16:01.673] --> workspace/semanticTokens/refresh(28)
+I[19:16:01.673] --> workspace/semanticTokens/refresh(29)
+I[19:16:01.673] --> textDocument/clangd.fileStatus
+I[19:16:01.673] --> textDocument/clangd.fileStatus
+I[19:16:01.673] --> textDocument/clangd.fileStatus
+I[19:16:01.673] --> textDocument/clangd.fileStatus
+I[19:16:01.675] <-- reply(28)
+I[19:16:01.675] <-- reply(29)
+I[19:16:01.680] <-- textDocument/semanticTokens/full/delta(106)
+I[19:16:01.680] --> reply:textDocument/semanticTokens/full/delta(106) 0 ms
+I[19:16:01.680] --> textDocument/clangd.fileStatus
+I[19:16:01.680] <-- textDocument/semanticTokens/full/delta(107)
+I[19:16:01.680] --> reply:textDocument/semanticTokens/full/delta(107) 0 ms
+I[19:16:01.680] --> textDocument/clangd.fileStatus
+I[19:16:02.073] <-- textDocument/documentLink(108)
+I[19:16:02.073] --> reply:textDocument/documentLink(108) 0 ms
+I[19:16:02.073] --> textDocument/clangd.fileStatus
+I[19:16:09.275] <-- textDocument/didChange
+I[19:16:09.275] --> textDocument/clangd.fileStatus
+I[19:16:09.324] <-- textDocument/completion(109)
+I[19:16:09.325] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:09.326] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 25 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:09.327] --> textDocument/clangd.fileStatus
+I[19:16:09.327] --> textDocument/clangd.fileStatus
+I[19:16:09.327] Code complete: sema context ClassStructUnion, query scopes [] (AnyScope=true), expected type <none>
+I[19:16:09.327] --> workspace/semanticTokens/refresh(30)
+I[19:16:09.327] --> textDocument/clangd.fileStatus
+I[19:16:09.327] Code complete: 6 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 6 returned.
+I[19:16:09.327] --> reply:textDocument/completion(109) 3 ms
+I[19:16:09.328] <-- reply(30)
+I[19:16:09.329] <-- textDocument/semanticTokens/full/delta(110)
+I[19:16:09.329] <-- textDocument/semanticTokens/full/delta(111)
+I[19:16:09.329] --> reply:textDocument/semanticTokens/full/delta(110) 0 ms
+I[19:16:09.329] --> textDocument/clangd.fileStatus
+I[19:16:09.330] --> textDocument/publishDiagnostics
+I[19:16:09.330] --> reply:textDocument/semanticTokens/full/delta(111) 1 ms
+I[19:16:09.330] --> textDocument/clangd.fileStatus
+I[19:16:09.612] <-- textDocument/didChange
+I[19:16:09.612] --> textDocument/clangd.fileStatus
+I[19:16:09.612] <-- textDocument/completion(112)
+I[19:16:09.615] Code complete: sema context ClassStructUnion, query scopes [] (AnyScope=true), expected type <none>
+I[19:16:09.616] Code complete: 3 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 3 returned.
+I[19:16:09.616] --> reply:textDocument/completion(112) 3 ms
+I[19:16:09.662] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:09.662] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 26 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:09.663] --> textDocument/clangd.fileStatus
+I[19:16:09.663] --> textDocument/clangd.fileStatus
+I[19:16:09.663] --> workspace/semanticTokens/refresh(31)
+I[19:16:09.663] --> textDocument/clangd.fileStatus
+I[19:16:09.663] <-- reply(31)
+I[19:16:09.666] <-- textDocument/semanticTokens/full/delta(113)
+I[19:16:09.666] <-- textDocument/semanticTokens/full/delta(114)
+I[19:16:09.666] --> reply:textDocument/semanticTokens/full/delta(113) 0 ms
+I[19:16:09.666] --> textDocument/clangd.fileStatus
+I[19:16:09.667] --> textDocument/publishDiagnostics
+I[19:16:09.667] --> reply:textDocument/semanticTokens/full/delta(114) 0 ms
+I[19:16:09.667] --> textDocument/clangd.fileStatus
+I[19:16:09.901] <-- textDocument/didChange
+I[19:16:09.901] --> textDocument/clangd.fileStatus
+I[19:16:09.901] <-- textDocument/completion(115)
+I[19:16:09.905] Code complete: sema context ClassStructUnion, query scopes [] (AnyScope=true), expected type <none>
+I[19:16:09.906] Code complete: 2 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 2 returned.
+I[19:16:09.906] --> reply:textDocument/completion(115) 4 ms
+I[19:16:09.951] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:09.951] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 27 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:09.952] --> textDocument/clangd.fileStatus
+I[19:16:09.952] --> textDocument/clangd.fileStatus
+I[19:16:09.952] --> workspace/semanticTokens/refresh(32)
+I[19:16:09.952] --> textDocument/clangd.fileStatus
+I[19:16:09.952] <-- reply(32)
+I[19:16:09.957] --> textDocument/publishDiagnostics
+I[19:16:09.957] --> textDocument/clangd.fileStatus
+I[19:16:09.960] <-- textDocument/semanticTokens/full/delta(116)
+I[19:16:09.960] <-- textDocument/semanticTokens/full/delta(117)
+I[19:16:09.960] --> reply:textDocument/semanticTokens/full/delta(117) 0 ms
+I[19:16:09.960] --> textDocument/clangd.fileStatus
+I[19:16:09.960] --> reply:textDocument/semanticTokens/full/delta(116) 0 ms
+I[19:16:09.960] --> textDocument/clangd.fileStatus
+I[19:16:10.150] <-- textDocument/didChange
+I[19:16:10.150] --> textDocument/clangd.fileStatus
+I[19:16:10.150] <-- textDocument/completion(118)
+I[19:16:10.157] Code complete: sema context ClassStructUnion, query scopes [] (AnyScope=true), expected type <none>
+I[19:16:10.158] Code complete: 2 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 2 returned.
+I[19:16:10.158] --> reply:textDocument/completion(118) 7 ms
+I[19:16:10.200] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:10.200] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 28 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:10.201] --> textDocument/clangd.fileStatus
+I[19:16:10.201] --> textDocument/clangd.fileStatus
+I[19:16:10.201] --> workspace/semanticTokens/refresh(33)
+I[19:16:10.201] --> textDocument/clangd.fileStatus
+I[19:16:10.202] <-- reply(33)
+I[19:16:10.207] --> textDocument/publishDiagnostics
+I[19:16:10.207] --> textDocument/clangd.fileStatus
+I[19:16:10.208] <-- textDocument/semanticTokens/full/delta(119)
+I[19:16:10.208] <-- textDocument/semanticTokens/full/delta(120)
+I[19:16:10.208] --> reply:textDocument/semanticTokens/full/delta(119) 0 ms
+I[19:16:10.208] --> reply:textDocument/semanticTokens/full/delta(120) 0 ms
+I[19:16:10.208] --> textDocument/clangd.fileStatus
+I[19:16:10.208] --> textDocument/clangd.fileStatus
+I[19:16:10.342] <-- textDocument/didChange
+I[19:16:10.342] --> textDocument/clangd.fileStatus
+I[19:16:10.342] <-- textDocument/completion(121)
+I[19:16:10.346] Code complete: sema context ClassStructUnion, query scopes [] (AnyScope=true), expected type <none>
+I[19:16:10.346] Code complete: 2 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 2 returned.
+I[19:16:10.346] --> reply:textDocument/completion(121) 3 ms
+I[19:16:10.392] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:10.393] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 29 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:10.395] --> textDocument/clangd.fileStatus
+I[19:16:10.395] --> textDocument/clangd.fileStatus
+I[19:16:10.395] --> workspace/semanticTokens/refresh(34)
+I[19:16:10.395] --> textDocument/clangd.fileStatus
+I[19:16:10.397] <-- reply(34)
+I[19:16:10.409] --> textDocument/publishDiagnostics
+I[19:16:10.409] --> textDocument/clangd.fileStatus
+I[19:16:10.418] <-- textDocument/semanticTokens/full/delta(122)
+I[19:16:10.418] <-- textDocument/semanticTokens/full/delta(123)
+I[19:16:10.418] --> reply:textDocument/semanticTokens/full/delta(122) 0 ms
+I[19:16:10.418] --> textDocument/clangd.fileStatus
+I[19:16:10.418] --> reply:textDocument/semanticTokens/full/delta(123) 0 ms
+I[19:16:10.418] --> textDocument/clangd.fileStatus
+I[19:16:10.443] <-- textDocument/didChange
+I[19:16:10.443] --> textDocument/clangd.fileStatus
+I[19:16:10.443] <-- textDocument/completion(124)
+I[19:16:10.446] Code complete: sema context ClassStructUnion, query scopes [] (AnyScope=true), expected type <none>
+I[19:16:10.446] Code complete: 2 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 2 returned.
+I[19:16:10.446] --> reply:textDocument/completion(124) 3 ms
+I[19:16:10.493] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:10.494] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 30 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:10.494] --> textDocument/clangd.fileStatus
+I[19:16:10.494] --> textDocument/clangd.fileStatus
+I[19:16:10.494] --> workspace/semanticTokens/refresh(35)
+I[19:16:10.494] --> textDocument/clangd.fileStatus
+I[19:16:10.495] <-- reply(35)
+I[19:16:10.498] --> textDocument/publishDiagnostics
+I[19:16:10.499] --> textDocument/clangd.fileStatus
+I[19:16:10.502] <-- textDocument/semanticTokens/full/delta(125)
+I[19:16:10.503] <-- textDocument/semanticTokens/full/delta(126)
+I[19:16:10.503] --> reply:textDocument/semanticTokens/full/delta(125) 0 ms
+I[19:16:10.503] --> reply:textDocument/semanticTokens/full/delta(126) 0 ms
+I[19:16:10.503] --> textDocument/clangd.fileStatus
+I[19:16:10.503] --> textDocument/clangd.fileStatus
+I[19:16:10.626] <-- textDocument/didChange
+I[19:16:10.626] --> textDocument/clangd.fileStatus
+I[19:16:10.676] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:10.677] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 31 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:10.678] --> textDocument/clangd.fileStatus
+I[19:16:10.678] --> textDocument/clangd.fileStatus
+I[19:16:10.678] --> workspace/semanticTokens/refresh(36)
+I[19:16:10.678] --> textDocument/clangd.fileStatus
+I[19:16:10.679] <-- reply(36)
+I[19:16:10.682] <-- textDocument/semanticTokens/full/delta(127)
+I[19:16:10.682] --> reply:textDocument/semanticTokens/full/delta(127) 0 ms
+I[19:16:10.682] <-- textDocument/semanticTokens/full/delta(128)
+I[19:16:10.682] --> textDocument/clangd.fileStatus
+I[19:16:10.686] --> textDocument/publishDiagnostics
+I[19:16:10.686] --> reply:textDocument/semanticTokens/full/delta(128) 3 ms
+I[19:16:10.686] --> textDocument/clangd.fileStatus
+I[19:16:10.954] <-- textDocument/documentSymbol(129)
+I[19:16:10.955] --> reply:textDocument/documentSymbol(129) 0 ms
+I[19:16:10.955] --> textDocument/clangd.fileStatus
+I[19:16:11.605] <-- textDocument/documentLink(130)
+I[19:16:11.605] --> reply:textDocument/documentLink(130) 0 ms
+I[19:16:11.605] --> textDocument/clangd.fileStatus
+I[19:16:12.341] <-- textDocument/didChange
+I[19:16:12.341] --> textDocument/clangd.fileStatus
+I[19:16:12.342] <-- textDocument/completion(131)
+I[19:16:12.346] Code complete: sema context ClassStructUnion, query scopes [] (AnyScope=true), expected type <none>
+I[19:16:12.346] Code complete: 4 results from Sema, 3 from Index, 2 matched, 0 from identifiers, 5 returned.
+I[19:16:12.346] --> reply:textDocument/completion(131) 3 ms
+I[19:16:12.391] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:12.391] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 32 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:12.393] --> textDocument/clangd.fileStatus
+I[19:16:12.393] --> textDocument/clangd.fileStatus
+I[19:16:12.393] --> workspace/semanticTokens/refresh(37)
+I[19:16:12.393] --> textDocument/clangd.fileStatus
+I[19:16:12.394] <-- reply(37)
+I[19:16:12.398] --> textDocument/publishDiagnostics
+I[19:16:12.399] --> textDocument/clangd.fileStatus
+I[19:16:12.400] <-- textDocument/semanticTokens/full/delta(132)
+I[19:16:12.400] <-- textDocument/semanticTokens/full/delta(133)
+I[19:16:12.400] --> reply:textDocument/semanticTokens/full/delta(132) 0 ms
+I[19:16:12.400] --> reply:textDocument/semanticTokens/full/delta(133) 0 ms
+I[19:16:12.400] --> textDocument/clangd.fileStatus
+I[19:16:12.400] --> textDocument/clangd.fileStatus
+I[19:16:12.548] <-- textDocument/didChange
+I[19:16:12.548] <-- textDocument/completion(134)
+I[19:16:12.548] --> textDocument/clangd.fileStatus
+I[19:16:12.552] Code complete: sema context ClassStructUnion, query scopes [] (AnyScope=true), expected type <none>
+I[19:16:12.552] Code complete: 1 results from Sema, 2 from Index, 1 matched, 0 from identifiers, 2 returned.
+I[19:16:12.552] --> reply:textDocument/completion(134) 4 ms
+I[19:16:12.598] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:12.598] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 33 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:12.600] --> textDocument/clangd.fileStatus
+I[19:16:12.600] --> textDocument/clangd.fileStatus
+I[19:16:12.600] --> workspace/semanticTokens/refresh(38)
+I[19:16:12.600] --> textDocument/clangd.fileStatus
+I[19:16:12.601] <-- reply(38)
+I[19:16:12.606] <-- textDocument/semanticTokens/full/delta(135)
+I[19:16:12.606] <-- textDocument/semanticTokens/full/delta(136)
+I[19:16:12.606] --> reply:textDocument/semanticTokens/full/delta(135) 0 ms
+I[19:16:12.606] --> textDocument/clangd.fileStatus
+I[19:16:12.609] --> textDocument/publishDiagnostics
+I[19:16:12.609] --> reply:textDocument/semanticTokens/full/delta(136) 3 ms
+I[19:16:12.609] --> textDocument/clangd.fileStatus
+I[19:16:12.692] <-- textDocument/didChange
+I[19:16:12.692] --> textDocument/clangd.fileStatus
+I[19:16:12.692] <-- textDocument/completion(137)
+I[19:16:12.696] Code complete: sema context ClassStructUnion, query scopes [] (AnyScope=true), expected type <none>
+I[19:16:12.696] Code complete: 1 results from Sema, 2 from Index, 1 matched, 0 from identifiers, 2 returned.
+I[19:16:12.696] --> reply:textDocument/completion(137) 4 ms
+I[19:16:12.742] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:12.742] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 34 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:12.743] --> textDocument/clangd.fileStatus
+I[19:16:12.743] --> textDocument/clangd.fileStatus
+I[19:16:12.743] --> workspace/semanticTokens/refresh(39)
+I[19:16:12.743] --> textDocument/clangd.fileStatus
+I[19:16:12.744] <-- reply(39)
+I[19:16:12.747] --> textDocument/publishDiagnostics
+I[19:16:12.747] --> textDocument/clangd.fileStatus
+I[19:16:12.748] <-- textDocument/semanticTokens/full/delta(138)
+I[19:16:12.748] <-- textDocument/semanticTokens/full/delta(139)
+I[19:16:12.748] --> reply:textDocument/semanticTokens/full/delta(139) 0 ms
+I[19:16:12.748] --> reply:textDocument/semanticTokens/full/delta(138) 0 ms
+I[19:16:12.748] --> textDocument/clangd.fileStatus
+I[19:16:12.748] --> textDocument/clangd.fileStatus
+I[19:16:13.004] <-- textDocument/codeAction(140)
+I[19:16:13.004] --> reply:textDocument/codeAction(140) 0 ms
+I[19:16:13.004] --> textDocument/clangd.fileStatus
+I[19:16:13.041] <-- textDocument/didChange
+I[19:16:13.041] --> textDocument/clangd.fileStatus
+I[19:16:13.091] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:13.092] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 35 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:13.093] --> textDocument/clangd.fileStatus
+I[19:16:13.093] --> textDocument/clangd.fileStatus
+I[19:16:13.093] --> workspace/semanticTokens/refresh(40)
+I[19:16:13.093] --> textDocument/clangd.fileStatus
+I[19:16:13.094] <-- reply(40)
+I[19:16:13.099] --> textDocument/publishDiagnostics
+I[19:16:13.099] --> textDocument/clangd.fileStatus
+I[19:16:13.099] <-- textDocument/semanticTokens/full/delta(141)
+I[19:16:13.099] <-- textDocument/semanticTokens/full/delta(142)
+I[19:16:13.099] --> reply:textDocument/semanticTokens/full/delta(141) 0 ms
+I[19:16:13.099] --> textDocument/clangd.fileStatus
+I[19:16:13.099] --> reply:textDocument/semanticTokens/full/delta(142) 0 ms
+I[19:16:13.099] --> textDocument/clangd.fileStatus
+I[19:16:13.357] <-- textDocument/codeAction(143)
+I[19:16:13.357] --> reply:textDocument/codeAction(143) 0 ms
+I[19:16:13.357] --> textDocument/clangd.fileStatus
+I[19:16:13.372] <-- textDocument/documentSymbol(144)
+I[19:16:13.373] --> reply:textDocument/documentSymbol(144) 0 ms
+I[19:16:13.373] --> textDocument/clangd.fileStatus
+I[19:16:13.603] <-- textDocument/didChange
+I[19:16:13.604] --> textDocument/clangd.fileStatus
+I[19:16:13.654] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:13.654] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 36 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:13.656] --> textDocument/clangd.fileStatus
+I[19:16:13.656] --> textDocument/clangd.fileStatus
+I[19:16:13.656] --> workspace/semanticTokens/refresh(41)
+I[19:16:13.656] --> textDocument/clangd.fileStatus
+I[19:16:13.658] <-- reply(41)
+I[19:16:13.661] <-- textDocument/semanticTokens/full/delta(145)
+I[19:16:13.661] <-- textDocument/semanticTokens/full/delta(146)
+I[19:16:13.661] --> reply:textDocument/semanticTokens/full/delta(145) 0 ms
+I[19:16:13.661] --> textDocument/clangd.fileStatus
+I[19:16:13.667] --> textDocument/publishDiagnostics
+I[19:16:13.668] --> reply:textDocument/semanticTokens/full/delta(146) 6 ms
+I[19:16:13.668] --> textDocument/clangd.fileStatus
+I[19:16:13.934] <-- textDocument/didChange
+I[19:16:13.934] --> textDocument/clangd.fileStatus
+I[19:16:13.935] <-- textDocument/completion(147)
+I[19:16:13.937] Code complete: sema context NewName, query scopes [] (AnyScope=true), expected type <none>
+I[19:16:13.937] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[19:16:13.937] --> reply:textDocument/completion(147) 2 ms
+I[19:16:13.984] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:13.985] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 37 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:13.987] --> textDocument/clangd.fileStatus
+I[19:16:13.987] --> textDocument/clangd.fileStatus
+I[19:16:13.987] --> workspace/semanticTokens/refresh(42)
+I[19:16:13.987] --> textDocument/clangd.fileStatus
+I[19:16:13.989] <-- reply(42)
+I[19:16:14.001] <-- textDocument/semanticTokens/full/delta(148)
+I[19:16:14.001] --> textDocument/publishDiagnostics
+I[19:16:14.001] <-- textDocument/semanticTokens/full/delta(149)
+I[19:16:14.001] --> reply:textDocument/semanticTokens/full/delta(148) 0 ms
+I[19:16:14.001] --> reply:textDocument/semanticTokens/full/delta(149) 0 ms
+I[19:16:14.001] --> textDocument/clangd.fileStatus
+I[19:16:14.001] --> textDocument/clangd.fileStatus
+I[19:16:14.266] <-- textDocument/codeAction(150)
+I[19:16:14.266] --> reply:textDocument/codeAction(150) 0 ms
+I[19:16:14.266] --> textDocument/clangd.fileStatus
+I[19:16:14.269] <-- textDocument/documentSymbol(151)
+I[19:16:14.270] --> reply:textDocument/documentSymbol(151) 0 ms
+I[19:16:14.270] --> textDocument/clangd.fileStatus
+I[19:16:14.924] <-- textDocument/documentLink(152)
+I[19:16:14.924] --> reply:textDocument/documentLink(152) 0 ms
+I[19:16:14.925] --> textDocument/clangd.fileStatus
+I[19:16:16.218] <-- textDocument/didChange
+I[19:16:16.218] --> textDocument/clangd.fileStatus
+I[19:16:16.269] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:16.269] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 38 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:16.271] --> textDocument/clangd.fileStatus
+I[19:16:16.271] --> textDocument/clangd.fileStatus
+I[19:16:16.272] --> workspace/semanticTokens/refresh(43)
+I[19:16:16.272] --> textDocument/clangd.fileStatus
+I[19:16:16.273] <-- reply(43)
+I[19:16:16.279] <-- textDocument/semanticTokens/full/delta(153)
+I[19:16:16.279] <-- textDocument/semanticTokens/full/delta(154)
+I[19:16:16.280] --> reply:textDocument/semanticTokens/full/delta(153) 0 ms
+I[19:16:16.280] --> textDocument/clangd.fileStatus
+I[19:16:16.286] --> textDocument/publishDiagnostics
+I[19:16:16.286] --> reply:textDocument/semanticTokens/full/delta(154) 6 ms
+I[19:16:16.286] --> textDocument/clangd.fileStatus
+I[19:16:16.548] <-- textDocument/documentSymbol(155)
+I[19:16:16.548] --> reply:textDocument/documentSymbol(155) 0 ms
+I[19:16:16.549] --> textDocument/clangd.fileStatus
+I[19:16:17.203] <-- textDocument/documentLink(156)
+I[19:16:17.203] --> reply:textDocument/documentLink(156) 0 ms
+I[19:16:17.203] --> textDocument/clangd.fileStatus
+I[19:16:17.601] <-- textDocument/didChange
+I[19:16:17.601] --> textDocument/clangd.fileStatus
+I[19:16:17.603] <-- textDocument/completion(157)
+I[19:16:17.605] Code complete: sema context NewName, query scopes [] (AnyScope=true), expected type <none>
+I[19:16:17.605] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[19:16:17.605] --> reply:textDocument/completion(157) 2 ms
+I[19:16:17.651] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:17.652] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 39 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:17.652] --> textDocument/clangd.fileStatus
+I[19:16:17.652] --> textDocument/clangd.fileStatus
+I[19:16:17.652] --> workspace/semanticTokens/refresh(44)
+I[19:16:17.652] --> textDocument/clangd.fileStatus
+I[19:16:17.653] <-- reply(44)
+I[19:16:17.655] --> textDocument/publishDiagnostics
+I[19:16:17.655] --> textDocument/clangd.fileStatus
+I[19:16:17.656] <-- textDocument/semanticTokens/full/delta(158)
+I[19:16:17.656] <-- textDocument/semanticTokens/full/delta(159)
+I[19:16:17.656] --> reply:textDocument/semanticTokens/full/delta(158) 0 ms
+I[19:16:17.656] --> textDocument/clangd.fileStatus
+I[19:16:17.656] --> reply:textDocument/semanticTokens/full/delta(159) 0 ms
+I[19:16:17.656] --> textDocument/clangd.fileStatus
+I[19:16:17.961] <-- textDocument/didChange
+I[19:16:17.961] --> textDocument/clangd.fileStatus
+I[19:16:18.011] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:18.011] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 40 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:18.012] --> textDocument/clangd.fileStatus
+I[19:16:18.012] --> textDocument/clangd.fileStatus
+I[19:16:18.012] --> workspace/semanticTokens/refresh(45)
+I[19:16:18.012] --> textDocument/clangd.fileStatus
+I[19:16:18.012] <-- reply(45)
+I[19:16:18.015] <-- textDocument/semanticTokens/full/delta(160)
+I[19:16:18.015] <-- textDocument/semanticTokens/full/delta(161)
+I[19:16:18.015] --> reply:textDocument/semanticTokens/full/delta(160) 0 ms
+I[19:16:18.015] --> textDocument/clangd.fileStatus
+I[19:16:18.015] --> textDocument/publishDiagnostics
+I[19:16:18.016] --> reply:textDocument/semanticTokens/full/delta(161) 0 ms
+I[19:16:18.016] --> textDocument/clangd.fileStatus
+I[19:16:18.128] <-- textDocument/didChange
+I[19:16:18.128] --> textDocument/clangd.fileStatus
+I[19:16:18.178] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:18.178] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 41 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:18.179] --> textDocument/clangd.fileStatus
+I[19:16:18.179] --> textDocument/clangd.fileStatus
+I[19:16:18.179] --> workspace/semanticTokens/refresh(46)
+I[19:16:18.179] --> textDocument/clangd.fileStatus
+I[19:16:18.180] <-- reply(46)
+I[19:16:18.182] --> textDocument/publishDiagnostics
+I[19:16:18.183] --> textDocument/clangd.fileStatus
+I[19:16:18.183] <-- textDocument/semanticTokens/full/delta(162)
+I[19:16:18.183] <-- textDocument/semanticTokens/full/delta(163)
+I[19:16:18.183] --> reply:textDocument/semanticTokens/full/delta(163) 0 ms
+I[19:16:18.183] --> reply:textDocument/semanticTokens/full/delta(162) 0 ms
+I[19:16:18.184] --> textDocument/clangd.fileStatus
+I[19:16:18.184] --> textDocument/clangd.fileStatus
+I[19:16:18.209] <-- textDocument/didChange
+I[19:16:18.209] --> textDocument/clangd.fileStatus
+I[19:16:18.259] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:18.259] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 42 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:18.260] --> textDocument/clangd.fileStatus
+I[19:16:18.260] --> textDocument/clangd.fileStatus
+I[19:16:18.260] --> workspace/semanticTokens/refresh(47)
+I[19:16:18.260] --> textDocument/clangd.fileStatus
+I[19:16:18.260] <-- reply(47)
+I[19:16:18.263] <-- textDocument/semanticTokens/full/delta(164)
+I[19:16:18.263] <-- textDocument/semanticTokens/full/delta(165)
+I[19:16:18.263] --> reply:textDocument/semanticTokens/full/delta(164) 0 ms
+I[19:16:18.263] --> textDocument/clangd.fileStatus
+I[19:16:18.263] --> textDocument/publishDiagnostics
+I[19:16:18.263] --> reply:textDocument/semanticTokens/full/delta(165) 0 ms
+I[19:16:18.263] --> textDocument/clangd.fileStatus
+I[19:16:18.414] <-- textDocument/didChange
+I[19:16:18.414] --> textDocument/clangd.fileStatus
+I[19:16:18.415] <-- textDocument/completion(166)
+I[19:16:18.419] Code complete: sema context NewName, query scopes [] (AnyScope=true), expected type <none>
+I[19:16:18.420] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[19:16:18.420] --> reply:textDocument/completion(166) 5 ms
+I[19:16:18.464] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:18.464] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 43 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:18.465] --> textDocument/clangd.fileStatus
+I[19:16:18.465] --> textDocument/clangd.fileStatus
+I[19:16:18.465] --> workspace/semanticTokens/refresh(48)
+I[19:16:18.465] --> textDocument/clangd.fileStatus
+I[19:16:18.466] <-- reply(48)
+I[19:16:18.469] --> textDocument/publishDiagnostics
+I[19:16:18.469] --> textDocument/clangd.fileStatus
+I[19:16:18.469] <-- textDocument/semanticTokens/full/delta(167)
+I[19:16:18.469] <-- textDocument/semanticTokens/full/delta(168)
+I[19:16:18.469] --> reply:textDocument/semanticTokens/full/delta(167) 0 ms
+I[19:16:18.469] --> textDocument/clangd.fileStatus
+I[19:16:18.469] --> reply:textDocument/semanticTokens/full/delta(168) 0 ms
+I[19:16:18.469] --> textDocument/clangd.fileStatus
+I[19:16:18.674] <-- textDocument/didChange
+I[19:16:18.674] --> textDocument/clangd.fileStatus
+I[19:16:18.676] <-- textDocument/completion(169)
+I[19:16:18.678] Code complete: sema context NewName, query scopes [] (AnyScope=true), expected type <none>
+I[19:16:18.678] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[19:16:18.678] --> reply:textDocument/completion(169) 2 ms
+I[19:16:18.725] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:18.725] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 44 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:18.726] --> textDocument/clangd.fileStatus
+I[19:16:18.726] --> textDocument/clangd.fileStatus
+I[19:16:18.726] --> workspace/semanticTokens/refresh(49)
+I[19:16:18.726] --> textDocument/clangd.fileStatus
+I[19:16:18.726] --> textDocument/clangd.fileStatus
+I[19:16:18.727] <-- reply(49)
+I[19:16:18.730] --> textDocument/publishDiagnostics
+I[19:16:18.731] --> textDocument/clangd.fileStatus
+I[19:16:18.733] <-- textDocument/semanticTokens/full/delta(170)
+I[19:16:18.733] <-- textDocument/semanticTokens/full/delta(171)
+I[19:16:18.733] --> reply:textDocument/semanticTokens/full/delta(170) 0 ms
+I[19:16:18.733] --> reply:textDocument/semanticTokens/full/delta(171) 0 ms
+I[19:16:18.733] --> textDocument/clangd.fileStatus
+I[19:16:18.733] --> textDocument/clangd.fileStatus
+I[19:16:18.988] <-- textDocument/codeAction(172)
+I[19:16:18.988] --> reply:textDocument/codeAction(172) 0 ms
+I[19:16:18.989] --> textDocument/clangd.fileStatus
+I[19:16:19.007] <-- textDocument/documentSymbol(173)
+I[19:16:19.007] --> reply:textDocument/documentSymbol(173) 0 ms
+I[19:16:19.007] --> textDocument/clangd.fileStatus
+I[19:16:19.265] <-- textDocument/didChange
+I[19:16:19.265] --> textDocument/clangd.fileStatus
+I[19:16:19.266] <-- textDocument/completion(174)
+I[19:16:19.269] Code complete: sema context NewName, query scopes [] (AnyScope=true), expected type <none>
+I[19:16:19.269] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[19:16:19.269] --> reply:textDocument/completion(174) 2 ms
+I[19:16:19.315] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:19.315] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 45 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:19.316] --> textDocument/clangd.fileStatus
+I[19:16:19.316] --> textDocument/clangd.fileStatus
+I[19:16:19.316] --> workspace/semanticTokens/refresh(50)
+I[19:16:19.316] --> textDocument/clangd.fileStatus
+I[19:16:19.317] <-- reply(50)
+I[19:16:19.320] --> textDocument/publishDiagnostics
+I[19:16:19.320] --> textDocument/clangd.fileStatus
+I[19:16:19.320] <-- textDocument/semanticTokens/full/delta(175)
+I[19:16:19.321] <-- textDocument/semanticTokens/full/delta(176)
+I[19:16:19.321] --> reply:textDocument/semanticTokens/full/delta(175) 0 ms
+I[19:16:19.321] --> reply:textDocument/semanticTokens/full/delta(176) 0 ms
+I[19:16:19.321] --> textDocument/clangd.fileStatus
+I[19:16:19.321] --> textDocument/clangd.fileStatus
+I[19:16:19.512] <-- textDocument/didChange
+I[19:16:19.512] --> textDocument/clangd.fileStatus
+I[19:16:19.513] <-- textDocument/completion(177)
+I[19:16:19.516] Code complete: sema context NewName, query scopes [] (AnyScope=true), expected type <none>
+I[19:16:19.516] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[19:16:19.516] --> reply:textDocument/completion(177) 3 ms
+I[19:16:19.562] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:19.562] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 46 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:19.565] --> textDocument/clangd.fileStatus
+I[19:16:19.565] --> textDocument/clangd.fileStatus
+I[19:16:19.565] --> workspace/semanticTokens/refresh(51)
+I[19:16:19.565] --> textDocument/clangd.fileStatus
+I[19:16:19.567] <-- reply(51)
+I[19:16:19.578] --> textDocument/publishDiagnostics
+I[19:16:19.578] --> textDocument/clangd.fileStatus
+I[19:16:19.579] <-- textDocument/semanticTokens/full/delta(178)
+I[19:16:19.579] <-- textDocument/semanticTokens/full/delta(179)
+I[19:16:19.579] --> reply:textDocument/semanticTokens/full/delta(178) 0 ms
+I[19:16:19.579] --> textDocument/clangd.fileStatus
+I[19:16:19.579] --> reply:textDocument/semanticTokens/full/delta(179) 0 ms
+I[19:16:19.579] --> textDocument/clangd.fileStatus
+I[19:16:19.816] <-- textDocument/documentSymbol(180)
+I[19:16:19.817] --> reply:textDocument/documentSymbol(180) 0 ms
+I[19:16:19.817] --> textDocument/clangd.fileStatus
+I[19:16:19.843] <-- textDocument/codeAction(181)
+I[19:16:19.843] --> reply:textDocument/codeAction(181) 0 ms
+I[19:16:19.843] --> textDocument/clangd.fileStatus
+I[19:16:20.173] <-- textDocument/didChange
+I[19:16:20.173] --> textDocument/clangd.fileStatus
+I[19:16:20.223] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:20.224] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 47 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:20.224] --> textDocument/clangd.fileStatus
+I[19:16:20.224] --> textDocument/clangd.fileStatus
+I[19:16:20.224] --> workspace/semanticTokens/refresh(52)
+I[19:16:20.224] --> textDocument/clangd.fileStatus
+I[19:16:20.225] <-- reply(52)
+I[19:16:20.227] --> textDocument/publishDiagnostics
+I[19:16:20.227] --> textDocument/clangd.fileStatus
+I[19:16:20.228] <-- textDocument/semanticTokens/full/delta(182)
+I[19:16:20.228] <-- textDocument/semanticTokens/full/delta(183)
+I[19:16:20.228] --> reply:textDocument/semanticTokens/full/delta(182) 0 ms
+I[19:16:20.228] --> reply:textDocument/semanticTokens/full/delta(183) 0 ms
+I[19:16:20.228] --> textDocument/clangd.fileStatus
+I[19:16:20.228] --> textDocument/clangd.fileStatus
+I[19:16:20.439] <-- textDocument/didChange
+I[19:16:20.439] --> textDocument/clangd.fileStatus
+I[19:16:20.440] <-- textDocument/completion(184)
+I[19:16:20.442] Code complete: sema context NewName, query scopes [] (AnyScope=true), expected type <none>
+I[19:16:20.442] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[19:16:20.442] --> reply:textDocument/completion(184) 1 ms
+I[19:16:20.489] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:20.489] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 48 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:20.490] --> textDocument/clangd.fileStatus
+I[19:16:20.490] --> textDocument/clangd.fileStatus
+I[19:16:20.490] --> workspace/semanticTokens/refresh(53)
+I[19:16:20.490] --> textDocument/clangd.fileStatus
+I[19:16:20.490] <-- reply(53)
+I[19:16:20.493] --> textDocument/publishDiagnostics
+I[19:16:20.493] --> textDocument/clangd.fileStatus
+I[19:16:20.494] <-- textDocument/semanticTokens/full/delta(185)
+I[19:16:20.494] <-- textDocument/semanticTokens/full/delta(186)
+I[19:16:20.494] --> reply:textDocument/semanticTokens/full/delta(185) 0 ms
+I[19:16:20.494] --> reply:textDocument/semanticTokens/full/delta(186) 0 ms
+I[19:16:20.494] --> textDocument/clangd.fileStatus
+I[19:16:20.494] --> textDocument/clangd.fileStatus
+I[19:16:20.746] <-- textDocument/documentSymbol(187)
+I[19:16:20.746] --> reply:textDocument/documentSymbol(187) 0 ms
+I[19:16:20.747] --> textDocument/clangd.fileStatus
+I[19:16:20.751] <-- textDocument/codeAction(188)
+I[19:16:20.751] --> reply:textDocument/codeAction(188) 0 ms
+I[19:16:20.752] --> textDocument/clangd.fileStatus
+I[19:16:20.990] <-- textDocument/didChange
+I[19:16:20.990] --> textDocument/clangd.fileStatus
+I[19:16:21.040] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:21.040] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 49 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:21.042] --> textDocument/clangd.fileStatus
+I[19:16:21.042] --> textDocument/clangd.fileStatus
+I[19:16:21.042] --> workspace/semanticTokens/refresh(54)
+I[19:16:21.042] --> textDocument/clangd.fileStatus
+I[19:16:21.044] <-- reply(54)
+I[19:16:21.047] <-- textDocument/semanticTokens/full/delta(189)
+I[19:16:21.047] <-- textDocument/semanticTokens/full/delta(190)
+I[19:16:21.047] --> reply:textDocument/semanticTokens/full/delta(189) 0 ms
+I[19:16:21.047] --> textDocument/clangd.fileStatus
+I[19:16:21.052] --> textDocument/publishDiagnostics
+I[19:16:21.052] --> reply:textDocument/semanticTokens/full/delta(190) 5 ms
+I[19:16:21.052] --> textDocument/clangd.fileStatus
+I[19:16:21.108] <-- textDocument/signatureHelp(191)
+I[19:16:21.117] --> reply:textDocument/signatureHelp(191) 9 ms
+I[19:16:21.317] <-- textDocument/codeAction(192)
+I[19:16:21.317] --> reply:textDocument/codeAction(192) 0 ms
+I[19:16:21.317] --> textDocument/clangd.fileStatus
+I[19:16:21.336] <-- textDocument/documentSymbol(193)
+I[19:16:21.336] --> reply:textDocument/documentSymbol(193) 0 ms
+I[19:16:21.337] --> textDocument/clangd.fileStatus
+I[19:16:21.376] <-- textDocument/didChange
+I[19:16:21.376] --> textDocument/clangd.fileStatus
+I[19:16:21.426] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:21.426] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 50 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:21.428] --> textDocument/clangd.fileStatus
+I[19:16:21.429] --> textDocument/clangd.fileStatus
+I[19:16:21.429] --> workspace/semanticTokens/refresh(55)
+I[19:16:21.429] --> textDocument/clangd.fileStatus
+I[19:16:21.429] --> textDocument/clangd.fileStatus
+I[19:16:21.430] --> textDocument/clangd.fileStatus
+I[19:16:21.431] <-- reply(55)
+I[19:16:21.445] <-- textDocument/semanticTokens/full/delta(194)
+I[19:16:21.445] <-- textDocument/semanticTokens/full/delta(195)
+I[19:16:21.445] --> reply:textDocument/semanticTokens/full/delta(194) 0 ms
+I[19:16:21.445] --> textDocument/clangd.fileStatus
+I[19:16:21.445] --> reply:textDocument/semanticTokens/full/delta(195) 0 ms
+I[19:16:21.446] --> textDocument/clangd.fileStatus
+I[19:16:21.613] <-- textDocument/codeAction(196)
+I[19:16:21.613] --> reply:textDocument/codeAction(196) 0 ms
+I[19:16:21.613] --> textDocument/clangd.fileStatus
+I[19:16:21.723] <-- textDocument/documentSymbol(197)
+I[19:16:21.723] <-- textDocument/didChange
+I[19:16:21.724] --> reply:textDocument/documentSymbol(197) 0 ms
+I[19:16:21.724] --> textDocument/clangd.fileStatus
+I[19:16:21.774] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:21.774] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 51 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:21.775] --> textDocument/clangd.fileStatus
+I[19:16:21.775] --> textDocument/clangd.fileStatus
+I[19:16:21.776] --> workspace/semanticTokens/refresh(56)
+I[19:16:21.776] --> textDocument/clangd.fileStatus
+I[19:16:21.776] <-- reply(56)
+I[19:16:21.779] <-- textDocument/semanticTokens/full/delta(198)
+I[19:16:21.779] <-- textDocument/semanticTokens/full/delta(199)
+I[19:16:21.779] --> reply:textDocument/semanticTokens/full/delta(198) 0 ms
+I[19:16:21.779] --> textDocument/clangd.fileStatus
+I[19:16:21.782] --> textDocument/publishDiagnostics
+I[19:16:21.782] --> reply:textDocument/semanticTokens/full/delta(199) 3 ms
+I[19:16:21.782] --> textDocument/clangd.fileStatus
+I[19:16:21.902] <-- textDocument/didChange
+I[19:16:21.902] --> textDocument/clangd.fileStatus
+I[19:16:21.952] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:21.953] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 52 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:21.954] --> textDocument/clangd.fileStatus
+I[19:16:21.954] --> textDocument/clangd.fileStatus
+I[19:16:21.954] --> workspace/semanticTokens/refresh(57)
+I[19:16:21.954] --> textDocument/clangd.fileStatus
+I[19:16:21.955] <-- reply(57)
+I[19:16:21.959] <-- textDocument/semanticTokens/full/delta(200)
+I[19:16:21.959] <-- textDocument/semanticTokens/full/delta(201)
+I[19:16:21.959] --> reply:textDocument/semanticTokens/full/delta(200) 0 ms
+I[19:16:21.959] --> textDocument/clangd.fileStatus
+I[19:16:22.057] --> textDocument/publishDiagnostics
+I[19:16:22.058] --> reply:textDocument/semanticTokens/full/delta(201) 98 ms
+I[19:16:22.058] --> textDocument/clangd.fileStatus
+I[19:16:22.121] <-- textDocument/didChange
+I[19:16:22.121] --> textDocument/clangd.fileStatus
+I[19:16:22.171] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:22.172] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 53 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:22.174] --> textDocument/clangd.fileStatus
+I[19:16:22.175] --> textDocument/clangd.fileStatus
+I[19:16:22.175] --> workspace/semanticTokens/refresh(58)
+I[19:16:22.175] --> textDocument/clangd.fileStatus
+I[19:16:22.177] <-- reply(58)
+I[19:16:22.186] --> textDocument/publishDiagnostics
+I[19:16:22.186] --> textDocument/clangd.fileStatus
+I[19:16:22.193] <-- textDocument/semanticTokens/full/delta(202)
+I[19:16:22.193] <-- textDocument/semanticTokens/full/delta(203)
+I[19:16:22.193] --> reply:textDocument/semanticTokens/full/delta(202) 0 ms
+I[19:16:22.193] --> textDocument/clangd.fileStatus
+I[19:16:22.193] --> reply:textDocument/semanticTokens/full/delta(203) 0 ms
+I[19:16:22.193] --> textDocument/clangd.fileStatus
+I[19:16:22.450] <-- textDocument/documentSymbol(204)
+I[19:16:22.451] --> reply:textDocument/documentSymbol(204) 0 ms
+I[19:16:22.451] --> textDocument/clangd.fileStatus
+I[19:16:22.804] <-- textDocument/didSave
+I[19:16:22.804] File version went from 1 to 1
+I[19:16:22.804] File version went from 53 to 53
+I[19:16:22.804] --> textDocument/clangd.fileStatus
+I[19:16:22.804] --> textDocument/clangd.fileStatus
+I[19:16:22.854] Failed to find compilation database for /home/awkward/programming/os/Kernel/Entry.cpp
+I[19:16:22.854] ASTWorker building file /home/awkward/programming/os/Kernel/Entry.cpp version 1 with command clangd fallback
+[/home/awkward/programming/os/Kernel]
+/usr/bin/clang "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/Entry.cpp
+I[19:16:22.854] Failed to find compilation database for /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:22.854] ASTWorker building file /home/awkward/programming/os/Kernel/baselib/primATA.h version 53 with command clangd fallback
+[/home/awkward/programming/os/Kernel/baselib]
+/usr/bin/clang -xobjective-c++-header "-resource-dir=/home/awkward/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/lib/clang/13.0.0" -- /home/awkward/programming/os/Kernel/baselib/primATA.h
+I[19:16:22.855] --> textDocument/clangd.fileStatus
+I[19:16:22.855] --> textDocument/clangd.fileStatus
+I[19:16:22.855] --> textDocument/clangd.fileStatus
+I[19:16:22.855] --> textDocument/clangd.fileStatus
+I[19:16:22.855] --> workspace/semanticTokens/refresh(59)
+I[19:16:22.855] --> workspace/semanticTokens/refresh(60)
+I[19:16:22.855] --> textDocument/clangd.fileStatus
+I[19:16:22.855] --> textDocument/clangd.fileStatus
+I[19:16:22.855] --> textDocument/clangd.fileStatus
+I[19:16:22.855] --> textDocument/clangd.fileStatus
+I[19:16:22.856] <-- reply(59)
+I[19:16:22.856] <-- reply(60)
+I[19:16:22.860] <-- textDocument/semanticTokens/full/delta(205)
+I[19:16:22.860] <-- textDocument/semanticTokens/full/delta(206)
+I[19:16:22.860] --> reply:textDocument/semanticTokens/full/delta(205) 0 ms
+I[19:16:22.861] --> textDocument/clangd.fileStatus
+I[19:16:22.860] --> reply:textDocument/semanticTokens/full/delta(206) 0 ms
+I[19:16:22.861] --> textDocument/clangd.fileStatus
+I[19:16:23.099] <-- textDocument/documentLink(207)
+I[19:16:23.099] --> reply:textDocument/documentLink(207) 0 ms
+I[19:16:23.100] --> textDocument/clangd.fileStatus
+I[19:42:24.473] <-- textDocument/codeAction(208)
+I[19:42:24.473] --> reply:textDocument/codeAction(208) 0 ms
+I[19:42:24.473] --> textDocument/clangd.fileStatus
+I[19:42:39.889] <-- textDocument/hover(209)
+I[19:42:39.891] --> reply:textDocument/hover(209) 2 ms
+I[19:42:39.892] --> textDocument/clangd.fileStatus

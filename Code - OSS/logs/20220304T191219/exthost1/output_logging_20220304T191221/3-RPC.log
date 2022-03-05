@@ -1,0 +1,14 @@
+[7:12:24 PM - INFO] [data.ts] ext(): Git extension is active
+[7:12:24 PM - INFO] Discord Rich Presence for VS Code activated.
+[7:12:24 PM - INFO] Registered Discord Rich Presence commands
+[7:12:24 PM - INFO] Successfully connected to Discord
+[7:12:24 PM - INFO] Successfully logged in to Discord with client ID 782685898163617802
+[7:42:34 PM - INFO] Reconnecting to Discord Gateway...
+[7:42:34 PM - INFO] [003] Destroyed Discord RPC client
+[7:42:35 PM - ERROR] Encountered following error while trying to login:
+Error: connection closed
+[7:42:35 PM - INFO] [002] Destroyed Discord RPC client
+[7:42:38 PM - INFO] Reconnecting to Discord Gateway...
+[7:42:38 PM - INFO] [003] Destroyed Discord RPC client
+[7:42:38 PM - INFO] Successfully connected to Discord
+[7:42:38 PM - INFO] Successfully logged in to Discord with client ID 782685898163617802

@@ -1,0 +1,36 @@
+[2022-03-03 21:53:48.478] [exthost] [info] Extension host with pid 2215 started
+[2022-03-03 21:53:48.478] [exthost] [info] Skipping acquiring lock for /home/awkward/.config/Code - OSS/User/workspaceStorage/5702e0d057e7487506c3a456957b9d92.
+[2022-03-03 21:53:48.625] [exthost] [info] ExtensionService#_doActivateExtension muhammad-sammy.csharp, startup: false, activationEvent: 'onLanguage:csharp'
+[2022-03-03 21:53:48.931] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-03 21:53:49.048] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-03 21:53:49.247] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-03-03 21:53:49.463] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-03 21:53:49.867] [exthost] [info] Eager extensions activated
+[2022-03-03 21:53:49.887] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-03 21:53:50.207] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-03 21:53:50.372] [exthost] [info] ExtensionService#_doActivateExtension LeonardSSH.vscord, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-03 21:53:57.143] [exthost] [error] [muhammad-sammy.csharp] provider FAILED
+[2022-03-03 21:53:57.143] [exthost] [error] Problem invoking 'GetCodeActions' on OmniSharp server: Error: Request /v2/getcodeactions cancelled, id: undefined
+[2022-03-03 21:54:05.262] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-03-03 21:54:05.293] [exthost] [info] Extension host with pid 2215 exiting with code 0
+[2022-03-03 21:54:07.071] [exthost] [info] Extension host with pid 2412 started
+[2022-03-03 21:54:07.071] [exthost] [info] Skipping acquiring lock for /home/awkward/.config/Code - OSS/User/workspaceStorage/bff82e18ef4e7bb284119bcad050835c.
+[2022-03-03 21:54:07.139] [exthost] [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:cpp'
+[2022-03-03 21:54:09.127] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-03 21:54:09.128] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-03 21:54:09.260] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-03-03 21:54:09.286] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-03 21:54:09.311] [exthost] [info] Eager extensions activated
+[2022-03-03 21:54:09.331] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-03 21:54:09.337] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-03 21:54:09.339] [exthost] [info] ExtensionService#_doActivateExtension LeonardSSH.vscord, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-03 21:59:24.569] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-03 21:59:24.569] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{},"_last":{},"_size":0}}}
+[2022-03-03 21:59:24.577] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-03 21:59:24.577] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{},"_last":{},"_size":0}}}
+[2022-03-03 21:59:26.110] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-03 21:59:26.110] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"next":{},"prev":{}},"_last":{"next":{},"prev":{}},"_size":1}}}
+[2022-03-03 21:59:32.962] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-03 21:59:32.962] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{},"_last":{},"_size":0}}}
+[2022-03-03 22:18:53.670] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-03-03 22:18:53.670] [exthost] [error] {"_isCancelled":true,"_emitter":null}

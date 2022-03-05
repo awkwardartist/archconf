@@ -1,0 +1,15 @@
+2022/03/04-20:47:22.109 b76f Reusing MANIFEST /home/awkward/.config/chromium/Default/IndexedDB/https_static.btloader.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/04-20:47:22.109 b76f Recovering log #4
+2022/03/04-20:47:22.118 b76f Reusing old log /home/awkward/.config/chromium/Default/IndexedDB/https_static.btloader.com_0.indexeddb.leveldb/000004.log 
+2022/03/04-20:47:43.055 b76f Level-0 table #8: started
+2022/03/04-20:47:43.104 b76f Level-0 table #8: 226 bytes OK
+2022/03/04-20:47:43.178 b76f Delete type=0 #4
+2022/03/04-20:47:43.178 b76f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/03/04-20:47:43.178 b76f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 13 : 1
+2022/03/04-20:47:43.178 b76f Compacting 1@1 + 1@2 files
+2022/03/04-20:47:43.305 b76f Generated table #9@1: 9 keys, 377 bytes
+2022/03/04-20:47:43.305 b76f Compacted 1@1 + 1@2 files => 377 bytes
+2022/03/04-20:47:43.379 b76f compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/03/04-20:47:43.379 b76f Delete type=2 #8
+2022/03/04-20:47:43.379 b76f Delete type=2 #5
+2022/03/04-20:47:43.379 b76f Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 13 : 1 .. (end); will stop at (end)

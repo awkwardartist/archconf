@@ -1,0 +1,16 @@
+[2022-03-03T03:28:27.113Z] Validating found git in: git
+[2022-03-03T03:28:27.142Z] Using git  from git
+[2022-03-03T03:28:27.164Z] > git rev-parse --git-dir [2ms]
+[2022-03-03T03:28:27.169Z] Open repository: /home/awkward/programming/BracketScript
+[2022-03-03T03:28:27.184Z] > git symbolic-ref --short HEAD [1ms]
+[2022-03-03T03:28:27.237Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [49ms]
+[2022-03-03T03:28:27.438Z] > git remote --verbose [193ms]
+[2022-03-03T03:28:27.439Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [198ms]
+[2022-03-03T03:28:27.477Z] > git config --get commit.template [29ms]
+[2022-03-03T03:28:27.620Z] > git ls-files --stage -- /home/awkward/programming/BracketScript/Lexer.cs [145ms]
+[2022-03-03T03:28:27.646Z] > git cat-file -s 4594f31bd20b185d83e9734c46ddce910278a204 [11ms]
+[2022-03-03T03:28:38.184Z] > git symbolic-ref --short HEAD [2ms]
+[2022-03-03T03:28:38.193Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [3ms]
+[2022-03-03T03:28:38.204Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-03-03T03:28:38.205Z] > git remote --verbose [2ms]
+[2022-03-03T03:28:38.216Z] > git config --get commit.template [1ms]

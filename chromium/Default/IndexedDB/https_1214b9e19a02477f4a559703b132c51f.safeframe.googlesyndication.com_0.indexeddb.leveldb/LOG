@@ -1,0 +1,6 @@
+2022/03/03-22:32:35.801 1616 Creating DB /home/awkward/.config/chromium/Default/IndexedDB/https_1214b9e19a02477f4a559703b132c51f.safeframe.googlesyndication.com_0.indexeddb.leveldb since it was missing.
+2022/03/03-22:32:36.077 1616 Reusing MANIFEST /home/awkward/.config/chromium/Default/IndexedDB/https_1214b9e19a02477f4a559703b132c51f.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/03-22:33:09.015 1621 Level-0 table #5: started
+2022/03/03-22:33:09.064 1621 Level-0 table #5: 460 bytes OK
+2022/03/03-22:33:09.139 1621 Delete type=0 #3
+2022/03/03-22:33:09.139 1621 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

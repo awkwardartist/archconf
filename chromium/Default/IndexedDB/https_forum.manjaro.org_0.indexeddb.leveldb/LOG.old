@@ -1,0 +1,7 @@
+2022/03/04-23:05:37.255 17ed Reusing MANIFEST /home/awkward/.config/chromium/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/04-23:05:37.255 17ed Recovering log #3
+2022/03/04-23:05:37.426 17ed Reusing old log /home/awkward/.config/chromium/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb/000003.log 
+2022/03/04-23:06:40.506 17ee Level-0 table #5: started
+2022/03/04-23:06:40.567 17ee Level-0 table #5: 122592 bytes OK
+2022/03/04-23:06:40.641 17ee Delete type=0 #3
+2022/03/04-23:06:40.641 17ee Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,40 @@
+{
+   "checksum": "ca448b770a215cbe3091705e861b5f4a",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13290661574878667",
+            "guid": "49aca004-7e1d-486a-a14d-1dd871ce956a",
+            "id": "5",
+            "name": "How to install & configure nvidia driver on arch linux - Lintel Technologies Blog",
+            "type": "url",
+            "url": "https://howto.lintel.in/install-nvidia-arch-linux/"
+         } ],
+         "date_added": "13290660494600089",
+         "date_modified": "13290661574878667",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13290660494600094",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13290660494600098",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

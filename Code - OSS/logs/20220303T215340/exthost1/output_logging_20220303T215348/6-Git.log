@@ -1,0 +1,11 @@
+[2022-03-04T02:53:49.597Z] Validating found git in: git
+[2022-03-04T02:53:49.611Z] Using git 2.35.1 from git
+[2022-03-04T02:53:49.671Z] > git rev-parse --git-dir [2ms]
+[2022-03-04T02:53:49.676Z] Open repository: /home/awkward/programming/BracketScript
+[2022-03-04T02:53:50.520Z] > git symbolic-ref --short HEAD [3ms]
+[2022-03-04T02:53:50.623Z] > git ls-files --stage -- /home/awkward/programming/BracketScript/Lexer.cs [87ms]
+[2022-03-04T02:53:50.638Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [115ms]
+[2022-03-04T02:53:50.665Z] > git remote --verbose [9ms]
+[2022-03-04T02:53:50.666Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+[2022-03-04T02:53:50.669Z] > git cat-file -s 4594f31bd20b185d83e9734c46ddce910278a204 [34ms]
+[2022-03-04T02:53:50.674Z] > git config --get commit.template [1ms]

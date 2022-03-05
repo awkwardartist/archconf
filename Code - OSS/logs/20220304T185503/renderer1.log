@@ -1,0 +1,9 @@
+[2022-03-04 18:55:11.494] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-03-04 18:55:16.707] [renderer1] [warning] UNRESPONSIVE extension host: 'llvm-vs-code-extensions.vscode-clangd' took 100% of 5120.175ms, saved PROFILE here: 'file:///tmp/exthost-4e205c.cpuprofile' [{"id":"gc","total":2412,"percentage":0},{"id":"llvm-vs-code-extensions.vscode-clangd","total":5117500,"percentage":100}]
+[2022-03-04 18:55:17.943] [renderer1] [error] Server returned 422: Error: Server returned 422
+    at E (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:613:12130)
+    at l (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1487:6470)
+    at async n._processCpuProfile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1556:47339)
+[2022-03-04 18:55:43.996] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2022-03-04 19:02:42.905] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2022-03-04 19:08:18.834] [renderer1] [info] Webgl lost context, disposing of webgl renderer

@@ -1,0 +1,6 @@
+2022/03/02-18:08:52.640 3458d Creating DB /home/awkward/.config/chromium/Default/IndexedDB/https_blog.desdelinux.net_0.indexeddb.leveldb since it was missing.
+2022/03/02-18:08:52.928 3458d Reusing MANIFEST /home/awkward/.config/chromium/Default/IndexedDB/https_blog.desdelinux.net_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/02-18:11:50.868 3458d Level-0 table #5: started
+2022/03/02-18:11:50.917 3458d Level-0 table #5: 5856 bytes OK
+2022/03/02-18:11:50.991 3458d Delete type=0 #3
+2022/03/02-18:11:50.991 3458d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

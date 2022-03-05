@@ -1,0 +1,12 @@
+2022/03/04-23:41:51.700 2452 Reusing MANIFEST /home/awkward/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/04-23:41:51.700 2452 Recovering log #78
+2022/03/04-23:41:52.721 2452 Reusing old log /home/awkward/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000078.log 
+2022/03/05-00:28:06.210 272c Level-0 table #84: started
+2022/03/05-00:28:06.325 272c Level-0 table #84: 1114746 bytes OK
+2022/03/05-00:28:06.501 272c Delete type=0 #78
+2022/03/05-00:29:14.089 2792 Compacting 1@1 + 1@2 files
+2022/03/05-00:29:14.187 2792 Generated table #85@1: 611 keys, 42917 bytes
+2022/03/05-00:29:14.187 2792 Compacted 1@1 + 1@2 files => 42917 bytes
+2022/03/05-00:29:14.291 2792 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/03/05-00:29:14.291 2792 Delete type=2 #84
+2022/03/05-00:29:14.291 2792 Delete type=2 #81

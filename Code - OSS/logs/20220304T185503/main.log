@@ -1,0 +1,11 @@
+[2022-03-04 18:55:04.064] [main] [info] window#load: attempt to load window (id: 1)
+[2022-03-04 18:55:04.071] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-03-04 18:55:04.101] [main] [info] ExtensionHostStarterWorker created
+[2022-03-04 18:55:05.359] [main] [info] window#load: window reported ready (id: 1)
+[2022-03-04 18:55:05.478] [main] [info] Starting extension host with pid 23831 (fork() took 8 ms).
+[2022-03-04 18:55:05.479] [main] [info] ExtensionHostStarterWorker.start() took 11 ms.
+[2022-03-04 18:55:10.255] [main] [info] Enabling inspect port on extension host with pid 23831.
+[2022-03-04 19:11:57.655] [main] [info] window#load: attempt to load window (id: 3)
+[2022-03-04 19:11:59.119] [main] [info] window#load: window reported ready (id: 3)
+[2022-03-04 19:11:59.539] [main] [info] Starting extension host with pid 26252 (fork() took 5 ms).
+[2022-03-04 19:11:59.540] [main] [info] ExtensionHostStarterWorker.start() took 6 ms.

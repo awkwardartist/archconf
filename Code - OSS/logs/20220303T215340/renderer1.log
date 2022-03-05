@@ -1,0 +1,11 @@
+[2022-03-03 21:53:47.174] [renderer1] [info] IExtensionHostStarter.start() took 1420 ms.
+[2022-03-03 21:53:48.015] [renderer1] [error] [Extension Host] (node:2215) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `electron --trace-deprecation ...` to show where the warning was created)
+[2022-03-03 21:53:57.144] [renderer1] [error] Problem invoking 'GetCodeActions' on OmniSharp server: Error: Request /v2/getcodeactions cancelled, id: undefined
+[2022-03-03 21:54:06.593] [renderer1] [info] IExtensionHostStarter.start() took 44 ms.
+[2022-03-03 21:54:06.911] [renderer1] [error] [Extension Host] (node:2412) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `electron --trace-deprecation ...` to show where the warning was created)
+[2022-03-03 21:59:24.573] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2022-03-03 21:59:26.112] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2022-03-03 21:59:32.964] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2022-03-03 22:18:53.672] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
